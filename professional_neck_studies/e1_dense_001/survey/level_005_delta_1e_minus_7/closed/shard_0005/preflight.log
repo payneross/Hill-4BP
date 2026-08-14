@@ -1,0 +1,11 @@
+dry_run=1
+lambda1=0.027254858036835 lambda2=2.97274514197687 A=-0.986372570988435 B=0.48637257098158249 c=0.097656556510836004 c1=0 c2=0 c3=-0.097656556510836004
+E1/E2 |x|=0.79055471077214889 hcrit=-2.3915368938607138 (Ccrit=4.7830737877214275)
+E3/E4 |y|=3.3515520023013403 hcrit=-0.4540387530293194 (Ccrit=0.90807750605863879)
+energy_mode=neck_delta neck=E1 hcrit=-2.3915368938607138 delta=9.9999999999999995e-08 side=closed actual_neck_side=closed
+h=-2.3915369938607136 (C=4.7830739877214272)
+x_count=600 xdot_count=121 iterates=250 index range=[95,113] velocity_mode=fraction requested_returns=574750 svg_stride=100
+x_begin=0.78987479363027058 x_end=0.79123462791402721 neck_window_sigma=5 neck_length_scale=0.00013598342837565399
+solver_order=28 abs_tol=1.0000000000000001e-15 rel_tol=1e-13 max_step=0.0050000000000000001 max_return_time=100 max_half_crossings=4
+collision_radius=9.9999999999999995e-07 outer_radius=5 min_transversality=9.9999999999999998e-13
+no output files or CAPD Poincare map were constructed

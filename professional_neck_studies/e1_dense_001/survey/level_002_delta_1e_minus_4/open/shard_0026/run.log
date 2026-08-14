@@ -1,0 +1,1108 @@
+zero-velocity boundary -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_002_delta_1e_minus_4/open/shard_0026/zero_velocity_boundary.csv
+lambda1=0.0272549 lambda2=2.97275 A=-0.986373 B=0.486373 c=0.0976566 c1=0 c2=0 c3=-0.0976566 h=-2.39144 (C=4.78287)
+E1/E2 neck h=-2.39154 (C=4.78307), E3/E4 neck h=-0.454039 (C=0.908078)
+energy_mode=neck_delta neck=E1 hcrit=-2.39154 delta=0.0001 side=open actual_neck_side=open delta_h=0.0001
+x_count=600 xdot_count=121 iterates=250 index range=[492,509] velocity_mode=fraction x_range=[0.769054,0.812056] max_return_time=100
+smooth coordinates R=sqrt(rho), CAPD crossing mode=Both solver_order=28 max_step=0.005 abs_tol=1e-15 rel_tol=1e-13 collision_radius=1e-06 outer_radius=5
+velocity row 0/120 IC 492/599 x0=0.804374 velocity_parameter=-0.97 elapsed=1.39e-07s written=0
+  crossing 0/250
+  stopped velocity row 0 IC 492 x0=0.804374 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 493 x0=0.804446 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 494 x0=0.804518 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 495 x0=0.80459 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 496 x0=0.804661 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 497 x0=0.804733 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 498 x0=0.804805 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 499 x0=0.804877 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 500 x0=0.804948 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+  stopped velocity row 0 IC 501 x0=0.80502 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 0/120 IC 502/599 x0=0.805092 velocity_parameter=-0.97 elapsed=0.138913s written=0
+  crossing 0/250
+  stopped velocity row 0 IC 502 x0=0.805092 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 0/120 IC 509/599 x0=0.805595 velocity_parameter=-0.97 elapsed=0.205641s written=0
+  crossing 0/250
+  stopped velocity row 0 IC 509 x0=0.805595 velocity_parameter=-0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 1/120 IC 492/599 x0=0.804374 velocity_parameter=-0.953833 elapsed=0.217007s written=0
+  crossing 0/250
+  stopped velocity row 1 IC 492 x0=0.804374 velocity_parameter=-0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 1/120 IC 502/599 x0=0.805092 velocity_parameter=-0.953833 elapsed=0.306829s written=0
+  crossing 0/250
+  stopped velocity row 1 IC 502 x0=0.805092 velocity_parameter=-0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 1/120 IC 509/599 x0=0.805595 velocity_parameter=-0.953833 elapsed=0.38729s written=0
+  crossing 0/250
+  stopped velocity row 1 IC 509 x0=0.805595 velocity_parameter=-0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 2/120 IC 492/599 x0=0.804374 velocity_parameter=-0.937667 elapsed=0.397143s written=0
+  crossing 0/250
+  stopped velocity row 2 IC 492 x0=0.804374 velocity_parameter=-0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 2/120 IC 502/599 x0=0.805092 velocity_parameter=-0.937667 elapsed=0.491806s written=0
+  crossing 0/250
+  stopped velocity row 2 IC 502 x0=0.805092 velocity_parameter=-0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 2/120 IC 509/599 x0=0.805595 velocity_parameter=-0.937667 elapsed=0.550891s written=0
+  crossing 0/250
+  stopped velocity row 2 IC 509 x0=0.805595 velocity_parameter=-0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 3/120 IC 492/599 x0=0.804374 velocity_parameter=-0.9215 elapsed=0.559222s written=0
+  crossing 0/250
+  stopped velocity row 3 IC 492 x0=0.804374 velocity_parameter=-0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 3/120 IC 502/599 x0=0.805092 velocity_parameter=-0.9215 elapsed=0.641005s written=0
+  crossing 0/250
+  stopped velocity row 3 IC 502 x0=0.805092 velocity_parameter=-0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 3/120 IC 509/599 x0=0.805595 velocity_parameter=-0.9215 elapsed=0.7015s written=0
+  crossing 0/250
+  stopped velocity row 3 IC 509 x0=0.805595 velocity_parameter=-0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 4/120 IC 492/599 x0=0.804374 velocity_parameter=-0.905333 elapsed=0.709056s written=0
+  crossing 0/250
+  stopped velocity row 4 IC 492 x0=0.804374 velocity_parameter=-0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 4/120 IC 502/599 x0=0.805092 velocity_parameter=-0.905333 elapsed=0.788606s written=0
+  crossing 0/250
+  stopped velocity row 4 IC 502 x0=0.805092 velocity_parameter=-0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 4/120 IC 509/599 x0=0.805595 velocity_parameter=-0.905333 elapsed=0.857445s written=0
+  crossing 0/250
+  stopped velocity row 4 IC 509 x0=0.805595 velocity_parameter=-0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 5/120 IC 492/599 x0=0.804374 velocity_parameter=-0.889167 elapsed=0.872493s written=0
+  crossing 0/250
+  stopped velocity row 5 IC 492 x0=0.804374 velocity_parameter=-0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 5/120 IC 502/599 x0=0.805092 velocity_parameter=-0.889167 elapsed=0.969837s written=0
+  crossing 0/250
+  stopped velocity row 5 IC 502 x0=0.805092 velocity_parameter=-0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 5/120 IC 509/599 x0=0.805595 velocity_parameter=-0.889167 elapsed=1.02836s written=0
+  crossing 0/250
+  stopped velocity row 5 IC 509 x0=0.805595 velocity_parameter=-0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 6/120 IC 492/599 x0=0.804374 velocity_parameter=-0.873 elapsed=1.03574s written=0
+  crossing 0/250
+  stopped velocity row 6 IC 492 x0=0.804374 velocity_parameter=-0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 6/120 IC 502/599 x0=0.805092 velocity_parameter=-0.873 elapsed=1.11326s written=0
+  crossing 0/250
+  stopped velocity row 6 IC 502 x0=0.805092 velocity_parameter=-0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 6/120 IC 509/599 x0=0.805595 velocity_parameter=-0.873 elapsed=1.17311s written=0
+  crossing 0/250
+  stopped velocity row 6 IC 509 x0=0.805595 velocity_parameter=-0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 7/120 IC 492/599 x0=0.804374 velocity_parameter=-0.856833 elapsed=1.18532s written=0
+  crossing 0/250
+  stopped velocity row 7 IC 492 x0=0.804374 velocity_parameter=-0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 7/120 IC 502/599 x0=0.805092 velocity_parameter=-0.856833 elapsed=1.26504s written=0
+  crossing 0/250
+  stopped velocity row 7 IC 502 x0=0.805092 velocity_parameter=-0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 7/120 IC 509/599 x0=0.805595 velocity_parameter=-0.856833 elapsed=1.31947s written=0
+  crossing 0/250
+  stopped velocity row 7 IC 509 x0=0.805595 velocity_parameter=-0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 8/120 IC 492/599 x0=0.804374 velocity_parameter=-0.840667 elapsed=1.33208s written=0
+  crossing 0/250
+  stopped velocity row 8 IC 492 x0=0.804374 velocity_parameter=-0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 8/120 IC 502/599 x0=0.805092 velocity_parameter=-0.840667 elapsed=1.41907s written=0
+  crossing 0/250
+  stopped velocity row 8 IC 502 x0=0.805092 velocity_parameter=-0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 8/120 IC 509/599 x0=0.805595 velocity_parameter=-0.840667 elapsed=1.48368s written=0
+  crossing 0/250
+  stopped velocity row 8 IC 509 x0=0.805595 velocity_parameter=-0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 9/120 IC 492/599 x0=0.804374 velocity_parameter=-0.8245 elapsed=1.49051s written=0
+  crossing 0/250
+  stopped velocity row 9 IC 492 x0=0.804374 velocity_parameter=-0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 9/120 IC 502/599 x0=0.805092 velocity_parameter=-0.8245 elapsed=1.58573s written=0
+  crossing 0/250
+  stopped velocity row 9 IC 502 x0=0.805092 velocity_parameter=-0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 9/120 IC 509/599 x0=0.805595 velocity_parameter=-0.8245 elapsed=1.64956s written=0
+  crossing 0/250
+  stopped velocity row 9 IC 509 x0=0.805595 velocity_parameter=-0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 10/120 IC 492/599 x0=0.804374 velocity_parameter=-0.808333 elapsed=1.65735s written=0
+  crossing 0/250
+  stopped velocity row 10 IC 492 x0=0.804374 velocity_parameter=-0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 10/120 IC 502/599 x0=0.805092 velocity_parameter=-0.808333 elapsed=1.73299s written=0
+  crossing 0/250
+  stopped velocity row 10 IC 502 x0=0.805092 velocity_parameter=-0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 10/120 IC 509/599 x0=0.805595 velocity_parameter=-0.808333 elapsed=1.78872s written=0
+  crossing 0/250
+  stopped velocity row 10 IC 509 x0=0.805595 velocity_parameter=-0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 11/120 IC 492/599 x0=0.804374 velocity_parameter=-0.792167 elapsed=1.79677s written=0
+  crossing 0/250
+  stopped velocity row 11 IC 492 x0=0.804374 velocity_parameter=-0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 11/120 IC 502/599 x0=0.805092 velocity_parameter=-0.792167 elapsed=1.87097s written=0
+  crossing 0/250
+  stopped velocity row 11 IC 502 x0=0.805092 velocity_parameter=-0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 11/120 IC 509/599 x0=0.805595 velocity_parameter=-0.792167 elapsed=1.93878s written=0
+  crossing 0/250
+  stopped velocity row 11 IC 509 x0=0.805595 velocity_parameter=-0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 12/120 IC 492/599 x0=0.804374 velocity_parameter=-0.776 elapsed=1.94539s written=0
+  crossing 0/250
+  stopped velocity row 12 IC 492 x0=0.804374 velocity_parameter=-0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 12/120 IC 502/599 x0=0.805092 velocity_parameter=-0.776 elapsed=2.02275s written=0
+  crossing 0/250
+  stopped velocity row 12 IC 502 x0=0.805092 velocity_parameter=-0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 12/120 IC 509/599 x0=0.805595 velocity_parameter=-0.776 elapsed=2.08164s written=0
+  crossing 0/250
+  stopped velocity row 12 IC 509 x0=0.805595 velocity_parameter=-0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 13/120 IC 492/599 x0=0.804374 velocity_parameter=-0.759833 elapsed=2.0882s written=0
+  crossing 0/250
+  stopped velocity row 13 IC 492 x0=0.804374 velocity_parameter=-0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 13/120 IC 502/599 x0=0.805092 velocity_parameter=-0.759833 elapsed=2.16697s written=0
+  crossing 0/250
+  stopped velocity row 13 IC 502 x0=0.805092 velocity_parameter=-0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 13/120 IC 509/599 x0=0.805595 velocity_parameter=-0.759833 elapsed=2.22407s written=0
+  crossing 0/250
+  stopped velocity row 13 IC 509 x0=0.805595 velocity_parameter=-0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 14/120 IC 492/599 x0=0.804374 velocity_parameter=-0.743667 elapsed=2.23076s written=0
+  crossing 0/250
+  stopped velocity row 14 IC 492 x0=0.804374 velocity_parameter=-0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 14/120 IC 502/599 x0=0.805092 velocity_parameter=-0.743667 elapsed=2.30477s written=0
+  crossing 0/250
+  stopped velocity row 14 IC 502 x0=0.805092 velocity_parameter=-0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 14/120 IC 509/599 x0=0.805595 velocity_parameter=-0.743667 elapsed=2.35325s written=0
+  crossing 0/250
+  stopped velocity row 14 IC 509 x0=0.805595 velocity_parameter=-0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 15/120 IC 492/599 x0=0.804374 velocity_parameter=-0.7275 elapsed=2.36207s written=0
+  crossing 0/250
+  stopped velocity row 15 IC 492 x0=0.804374 velocity_parameter=-0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 15/120 IC 502/599 x0=0.805092 velocity_parameter=-0.7275 elapsed=2.45504s written=0
+  crossing 0/250
+  stopped velocity row 15 IC 502 x0=0.805092 velocity_parameter=-0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 15/120 IC 509/599 x0=0.805595 velocity_parameter=-0.7275 elapsed=2.51357s written=0
+  crossing 0/250
+  stopped velocity row 15 IC 509 x0=0.805595 velocity_parameter=-0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 16/120 IC 492/599 x0=0.804374 velocity_parameter=-0.711333 elapsed=2.5203s written=0
+  crossing 0/250
+  stopped velocity row 16 IC 492 x0=0.804374 velocity_parameter=-0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 16/120 IC 502/599 x0=0.805092 velocity_parameter=-0.711333 elapsed=2.58913s written=0
+  crossing 0/250
+  stopped velocity row 16 IC 502 x0=0.805092 velocity_parameter=-0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 16/120 IC 509/599 x0=0.805595 velocity_parameter=-0.711333 elapsed=2.63708s written=0
+  crossing 0/250
+  stopped velocity row 16 IC 509 x0=0.805595 velocity_parameter=-0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 17/120 IC 492/599 x0=0.804374 velocity_parameter=-0.695167 elapsed=2.6443s written=0
+  crossing 0/250
+  stopped velocity row 17 IC 492 x0=0.804374 velocity_parameter=-0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 17/120 IC 502/599 x0=0.805092 velocity_parameter=-0.695167 elapsed=2.71357s written=0
+  crossing 0/250
+  stopped velocity row 17 IC 502 x0=0.805092 velocity_parameter=-0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 17/120 IC 509/599 x0=0.805595 velocity_parameter=-0.695167 elapsed=2.76654s written=0
+  crossing 0/250
+  stopped velocity row 17 IC 509 x0=0.805595 velocity_parameter=-0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 18/120 IC 492/599 x0=0.804374 velocity_parameter=-0.679 elapsed=2.77419s written=0
+  crossing 0/250
+  stopped velocity row 18 IC 492 x0=0.804374 velocity_parameter=-0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 18/120 IC 502/599 x0=0.805092 velocity_parameter=-0.679 elapsed=2.84725s written=0
+  crossing 0/250
+  stopped velocity row 18 IC 502 x0=0.805092 velocity_parameter=-0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 18/120 IC 509/599 x0=0.805595 velocity_parameter=-0.679 elapsed=2.90217s written=0
+  crossing 0/250
+  stopped velocity row 18 IC 509 x0=0.805595 velocity_parameter=-0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 19/120 IC 492/599 x0=0.804374 velocity_parameter=-0.662833 elapsed=2.90863s written=0
+  crossing 0/250
+  stopped velocity row 19 IC 492 x0=0.804374 velocity_parameter=-0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 19/120 IC 502/599 x0=0.805092 velocity_parameter=-0.662833 elapsed=2.98675s written=0
+  crossing 0/250
+  stopped velocity row 19 IC 502 x0=0.805092 velocity_parameter=-0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 19/120 IC 509/599 x0=0.805595 velocity_parameter=-0.662833 elapsed=3.04027s written=0
+  crossing 0/250
+  stopped velocity row 19 IC 509 x0=0.805595 velocity_parameter=-0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 20/120 IC 492/599 x0=0.804374 velocity_parameter=-0.646667 elapsed=3.04778s written=0
+  crossing 0/250
+  stopped velocity row 20 IC 492 x0=0.804374 velocity_parameter=-0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 20/120 IC 502/599 x0=0.805092 velocity_parameter=-0.646667 elapsed=3.12191s written=0
+  crossing 0/250
+  stopped velocity row 20 IC 502 x0=0.805092 velocity_parameter=-0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 20/120 IC 509/599 x0=0.805595 velocity_parameter=-0.646667 elapsed=3.17683s written=0
+  crossing 0/250
+  stopped velocity row 20 IC 509 x0=0.805595 velocity_parameter=-0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 21/120 IC 492/599 x0=0.804374 velocity_parameter=-0.6305 elapsed=3.18352s written=0
+  crossing 0/250
+  stopped velocity row 21 IC 492 x0=0.804374 velocity_parameter=-0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 21/120 IC 502/599 x0=0.805092 velocity_parameter=-0.6305 elapsed=3.25663s written=0
+  crossing 0/250
+  stopped velocity row 21 IC 502 x0=0.805092 velocity_parameter=-0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 21/120 IC 509/599 x0=0.805595 velocity_parameter=-0.6305 elapsed=3.31231s written=0
+  crossing 0/250
+  stopped velocity row 21 IC 509 x0=0.805595 velocity_parameter=-0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 22/120 IC 492/599 x0=0.804374 velocity_parameter=-0.614333 elapsed=3.32018s written=0
+  crossing 0/250
+  stopped velocity row 22 IC 492 x0=0.804374 velocity_parameter=-0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 22/120 IC 502/599 x0=0.805092 velocity_parameter=-0.614333 elapsed=3.39372s written=0
+  crossing 0/250
+  stopped velocity row 22 IC 502 x0=0.805092 velocity_parameter=-0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 22/120 IC 509/599 x0=0.805595 velocity_parameter=-0.614333 elapsed=3.44573s written=0
+  crossing 0/250
+  stopped velocity row 22 IC 509 x0=0.805595 velocity_parameter=-0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 23/120 IC 492/599 x0=0.804374 velocity_parameter=-0.598167 elapsed=3.45516s written=0
+  crossing 0/250
+  stopped velocity row 23 IC 492 x0=0.804374 velocity_parameter=-0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 23/120 IC 502/599 x0=0.805092 velocity_parameter=-0.598167 elapsed=3.53577s written=0
+  crossing 0/250
+  stopped velocity row 23 IC 502 x0=0.805092 velocity_parameter=-0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 23/120 IC 509/599 x0=0.805595 velocity_parameter=-0.598167 elapsed=3.58115s written=0
+  crossing 0/250
+  stopped velocity row 23 IC 509 x0=0.805595 velocity_parameter=-0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 24/120 IC 492/599 x0=0.804374 velocity_parameter=-0.582 elapsed=3.58741s written=0
+  crossing 0/250
+  stopped velocity row 24 IC 492 x0=0.804374 velocity_parameter=-0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 24/120 IC 502/599 x0=0.805092 velocity_parameter=-0.582 elapsed=3.65533s written=0
+  crossing 0/250
+  stopped velocity row 24 IC 502 x0=0.805092 velocity_parameter=-0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 24/120 IC 509/599 x0=0.805595 velocity_parameter=-0.582 elapsed=3.70615s written=0
+  crossing 0/250
+  stopped velocity row 24 IC 509 x0=0.805595 velocity_parameter=-0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 25/120 IC 492/599 x0=0.804374 velocity_parameter=-0.565833 elapsed=3.71402s written=0
+  crossing 0/250
+  stopped velocity row 25 IC 492 x0=0.804374 velocity_parameter=-0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 25/120 IC 502/599 x0=0.805092 velocity_parameter=-0.565833 elapsed=3.79415s written=0
+  crossing 0/250
+  stopped velocity row 25 IC 502 x0=0.805092 velocity_parameter=-0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 25/120 IC 509/599 x0=0.805595 velocity_parameter=-0.565833 elapsed=3.84116s written=0
+  crossing 0/250
+  stopped velocity row 25 IC 509 x0=0.805595 velocity_parameter=-0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 26/120 IC 492/599 x0=0.804374 velocity_parameter=-0.549667 elapsed=3.8484s written=0
+  crossing 0/250
+  stopped velocity row 26 IC 492 x0=0.804374 velocity_parameter=-0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 26/120 IC 502/599 x0=0.805092 velocity_parameter=-0.549667 elapsed=3.91838s written=0
+  crossing 0/250
+  stopped velocity row 26 IC 502 x0=0.805092 velocity_parameter=-0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 26/120 IC 509/599 x0=0.805595 velocity_parameter=-0.549667 elapsed=3.9676s written=0
+  crossing 0/250
+  stopped velocity row 26 IC 509 x0=0.805595 velocity_parameter=-0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 27/120 IC 492/599 x0=0.804374 velocity_parameter=-0.5335 elapsed=3.97357s written=0
+  crossing 0/250
+  stopped velocity row 27 IC 492 x0=0.804374 velocity_parameter=-0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 27/120 IC 502/599 x0=0.805092 velocity_parameter=-0.5335 elapsed=4.04732s written=0
+  crossing 0/250
+  stopped velocity row 27 IC 502 x0=0.805092 velocity_parameter=-0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 27/120 IC 509/599 x0=0.805595 velocity_parameter=-0.5335 elapsed=4.09665s written=0
+  crossing 0/250
+  stopped velocity row 27 IC 509 x0=0.805595 velocity_parameter=-0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 28/120 IC 492/599 x0=0.804374 velocity_parameter=-0.517333 elapsed=4.10297s written=0
+  crossing 0/250
+  stopped velocity row 28 IC 492 x0=0.804374 velocity_parameter=-0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 28/120 IC 502/599 x0=0.805092 velocity_parameter=-0.517333 elapsed=4.16783s written=0
+  crossing 0/250
+  stopped velocity row 28 IC 502 x0=0.805092 velocity_parameter=-0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 28/120 IC 509/599 x0=0.805595 velocity_parameter=-0.517333 elapsed=4.21656s written=0
+  crossing 0/250
+  stopped velocity row 28 IC 509 x0=0.805595 velocity_parameter=-0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 29/120 IC 492/599 x0=0.804374 velocity_parameter=-0.501167 elapsed=4.22222s written=0
+  crossing 0/250
+  stopped velocity row 29 IC 492 x0=0.804374 velocity_parameter=-0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 29/120 IC 502/599 x0=0.805092 velocity_parameter=-0.501167 elapsed=4.28674s written=0
+  crossing 0/250
+  stopped velocity row 29 IC 502 x0=0.805092 velocity_parameter=-0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 29/120 IC 509/599 x0=0.805595 velocity_parameter=-0.501167 elapsed=4.33654s written=0
+  crossing 0/250
+  stopped velocity row 29 IC 509 x0=0.805595 velocity_parameter=-0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 30/120 IC 492/599 x0=0.804374 velocity_parameter=-0.485 elapsed=4.34567s written=0
+  crossing 0/250
+  stopped velocity row 30 IC 492 x0=0.804374 velocity_parameter=-0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 30/120 IC 502/599 x0=0.805092 velocity_parameter=-0.485 elapsed=4.4085s written=0
+  crossing 0/250
+  stopped velocity row 30 IC 502 x0=0.805092 velocity_parameter=-0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 30/120 IC 509/599 x0=0.805595 velocity_parameter=-0.485 elapsed=4.4527s written=0
+  crossing 0/250
+  stopped velocity row 30 IC 509 x0=0.805595 velocity_parameter=-0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 31/120 IC 492/599 x0=0.804374 velocity_parameter=-0.468833 elapsed=4.46637s written=0
+  crossing 0/250
+  stopped velocity row 31 IC 492 x0=0.804374 velocity_parameter=-0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 31/120 IC 502/599 x0=0.805092 velocity_parameter=-0.468833 elapsed=4.53569s written=0
+  crossing 0/250
+  stopped velocity row 31 IC 502 x0=0.805092 velocity_parameter=-0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 31/120 IC 509/599 x0=0.805595 velocity_parameter=-0.468833 elapsed=4.58916s written=0
+  crossing 0/250
+  stopped velocity row 31 IC 509 x0=0.805595 velocity_parameter=-0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 32/120 IC 492/599 x0=0.804374 velocity_parameter=-0.452667 elapsed=4.59613s written=0
+  crossing 0/250
+  stopped velocity row 32 IC 492 x0=0.804374 velocity_parameter=-0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 32/120 IC 502/599 x0=0.805092 velocity_parameter=-0.452667 elapsed=4.66839s written=0
+  crossing 0/250
+  stopped velocity row 32 IC 502 x0=0.805092 velocity_parameter=-0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 32/120 IC 509/599 x0=0.805595 velocity_parameter=-0.452667 elapsed=4.71754s written=0
+  crossing 0/250
+  stopped velocity row 32 IC 509 x0=0.805595 velocity_parameter=-0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 33/120 IC 492/599 x0=0.804374 velocity_parameter=-0.4365 elapsed=4.72841s written=0
+  crossing 0/250
+  stopped velocity row 33 IC 492 x0=0.804374 velocity_parameter=-0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 33/120 IC 502/599 x0=0.805092 velocity_parameter=-0.4365 elapsed=4.79761s written=0
+  crossing 0/250
+  stopped velocity row 33 IC 502 x0=0.805092 velocity_parameter=-0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 33/120 IC 509/599 x0=0.805595 velocity_parameter=-0.4365 elapsed=4.86534s written=0
+  crossing 0/250
+  stopped velocity row 33 IC 509 x0=0.805595 velocity_parameter=-0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 34/120 IC 492/599 x0=0.804374 velocity_parameter=-0.420333 elapsed=4.87098s written=0
+  crossing 0/250
+  stopped velocity row 34 IC 492 x0=0.804374 velocity_parameter=-0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 34/120 IC 502/599 x0=0.805092 velocity_parameter=-0.420333 elapsed=4.94897s written=0
+  crossing 0/250
+  stopped velocity row 34 IC 502 x0=0.805092 velocity_parameter=-0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 34/120 IC 509/599 x0=0.805595 velocity_parameter=-0.420333 elapsed=5.00317s written=0
+  crossing 0/250
+  stopped velocity row 34 IC 509 x0=0.805595 velocity_parameter=-0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 35/120 IC 492/599 x0=0.804374 velocity_parameter=-0.404167 elapsed=5.01466s written=0
+  crossing 0/250
+  stopped velocity row 35 IC 492 x0=0.804374 velocity_parameter=-0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 35/120 IC 502/599 x0=0.805092 velocity_parameter=-0.404167 elapsed=5.08788s written=0
+  crossing 0/250
+  stopped velocity row 35 IC 502 x0=0.805092 velocity_parameter=-0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 35/120 IC 509/599 x0=0.805595 velocity_parameter=-0.404167 elapsed=5.14s written=0
+  crossing 0/250
+  stopped velocity row 35 IC 509 x0=0.805595 velocity_parameter=-0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 36/120 IC 492/599 x0=0.804374 velocity_parameter=-0.388 elapsed=5.14546s written=0
+  crossing 0/250
+  stopped velocity row 36 IC 492 x0=0.804374 velocity_parameter=-0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 36/120 IC 502/599 x0=0.805092 velocity_parameter=-0.388 elapsed=5.21013s written=0
+  crossing 0/250
+  stopped velocity row 36 IC 502 x0=0.805092 velocity_parameter=-0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 36/120 IC 509/599 x0=0.805595 velocity_parameter=-0.388 elapsed=5.25884s written=0
+  crossing 0/250
+  stopped velocity row 36 IC 509 x0=0.805595 velocity_parameter=-0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 37/120 IC 492/599 x0=0.804374 velocity_parameter=-0.371833 elapsed=5.26642s written=0
+  crossing 0/250
+  stopped velocity row 37 IC 492 x0=0.804374 velocity_parameter=-0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 37/120 IC 502/599 x0=0.805092 velocity_parameter=-0.371833 elapsed=5.33234s written=0
+  crossing 0/250
+  stopped velocity row 37 IC 502 x0=0.805092 velocity_parameter=-0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 37/120 IC 509/599 x0=0.805595 velocity_parameter=-0.371833 elapsed=5.377s written=0
+  crossing 0/250
+  stopped velocity row 37 IC 509 x0=0.805595 velocity_parameter=-0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 38/120 IC 492/599 x0=0.804374 velocity_parameter=-0.355667 elapsed=5.3828s written=0
+  crossing 0/250
+  stopped velocity row 38 IC 492 x0=0.804374 velocity_parameter=-0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 38/120 IC 502/599 x0=0.805092 velocity_parameter=-0.355667 elapsed=5.45505s written=0
+  crossing 0/250
+  stopped velocity row 38 IC 502 x0=0.805092 velocity_parameter=-0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 38/120 IC 509/599 x0=0.805595 velocity_parameter=-0.355667 elapsed=5.49769s written=0
+  crossing 0/250
+  stopped velocity row 38 IC 509 x0=0.805595 velocity_parameter=-0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 39/120 IC 492/599 x0=0.804374 velocity_parameter=-0.3395 elapsed=5.50312s written=0
+  crossing 0/250
+  stopped velocity row 39 IC 492 x0=0.804374 velocity_parameter=-0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 39/120 IC 502/599 x0=0.805092 velocity_parameter=-0.3395 elapsed=5.57428s written=0
+  crossing 0/250
+  stopped velocity row 39 IC 502 x0=0.805092 velocity_parameter=-0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 39/120 IC 509/599 x0=0.805595 velocity_parameter=-0.3395 elapsed=5.62085s written=0
+  crossing 0/250
+  stopped velocity row 39 IC 509 x0=0.805595 velocity_parameter=-0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 40/120 IC 492/599 x0=0.804374 velocity_parameter=-0.323333 elapsed=5.63048s written=0
+  crossing 0/250
+  stopped velocity row 40 IC 492 x0=0.804374 velocity_parameter=-0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 40/120 IC 502/599 x0=0.805092 velocity_parameter=-0.323333 elapsed=5.6939s written=0
+  crossing 0/250
+  stopped velocity row 40 IC 502 x0=0.805092 velocity_parameter=-0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 40/120 IC 509/599 x0=0.805595 velocity_parameter=-0.323333 elapsed=5.73631s written=0
+  crossing 0/250
+  stopped velocity row 40 IC 509 x0=0.805595 velocity_parameter=-0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 41/120 IC 492/599 x0=0.804374 velocity_parameter=-0.307167 elapsed=5.74778s written=0
+  crossing 0/250
+  stopped velocity row 41 IC 492 x0=0.804374 velocity_parameter=-0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 41/120 IC 502/599 x0=0.805092 velocity_parameter=-0.307167 elapsed=5.81261s written=0
+  crossing 0/250
+  stopped velocity row 41 IC 502 x0=0.805092 velocity_parameter=-0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 41/120 IC 509/599 x0=0.805595 velocity_parameter=-0.307167 elapsed=5.85955s written=0
+  crossing 0/250
+  stopped velocity row 41 IC 509 x0=0.805595 velocity_parameter=-0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 42/120 IC 492/599 x0=0.804374 velocity_parameter=-0.291 elapsed=5.86585s written=0
+  crossing 0/250
+  stopped velocity row 42 IC 492 x0=0.804374 velocity_parameter=-0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 42/120 IC 502/599 x0=0.805092 velocity_parameter=-0.291 elapsed=5.93885s written=0
+  crossing 0/250
+  stopped velocity row 42 IC 502 x0=0.805092 velocity_parameter=-0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 42/120 IC 509/599 x0=0.805595 velocity_parameter=-0.291 elapsed=5.98372s written=0
+  crossing 0/250
+  stopped velocity row 42 IC 509 x0=0.805595 velocity_parameter=-0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 43/120 IC 492/599 x0=0.804374 velocity_parameter=-0.274833 elapsed=5.98947s written=0
+  crossing 0/250
+  stopped velocity row 43 IC 492 x0=0.804374 velocity_parameter=-0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 43/120 IC 502/599 x0=0.805092 velocity_parameter=-0.274833 elapsed=6.05637s written=0
+  crossing 0/250
+  stopped velocity row 43 IC 502 x0=0.805092 velocity_parameter=-0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 43/120 IC 509/599 x0=0.805595 velocity_parameter=-0.274833 elapsed=6.10228s written=0
+  crossing 0/250
+  stopped velocity row 43 IC 509 x0=0.805595 velocity_parameter=-0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 44/120 IC 492/599 x0=0.804374 velocity_parameter=-0.258667 elapsed=6.10904s written=0
+  crossing 0/250
+  stopped velocity row 44 IC 492 x0=0.804374 velocity_parameter=-0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 44/120 IC 502/599 x0=0.805092 velocity_parameter=-0.258667 elapsed=6.17511s written=0
+  crossing 0/250
+  stopped velocity row 44 IC 502 x0=0.805092 velocity_parameter=-0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 44/120 IC 509/599 x0=0.805595 velocity_parameter=-0.258667 elapsed=6.23122s written=0
+  crossing 0/250
+  stopped velocity row 44 IC 509 x0=0.805595 velocity_parameter=-0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 45/120 IC 492/599 x0=0.804374 velocity_parameter=-0.2425 elapsed=6.23773s written=0
+  crossing 0/250
+  stopped velocity row 45 IC 492 x0=0.804374 velocity_parameter=-0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 45/120 IC 502/599 x0=0.805092 velocity_parameter=-0.2425 elapsed=6.31009s written=0
+  crossing 0/250
+  stopped velocity row 45 IC 502 x0=0.805092 velocity_parameter=-0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 45/120 IC 509/599 x0=0.805595 velocity_parameter=-0.2425 elapsed=6.36042s written=0
+  crossing 0/250
+  stopped velocity row 45 IC 509 x0=0.805595 velocity_parameter=-0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 46/120 IC 492/599 x0=0.804374 velocity_parameter=-0.226333 elapsed=6.36476s written=0
+  crossing 0/250
+  stopped velocity row 46 IC 492 x0=0.804374 velocity_parameter=-0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 46/120 IC 502/599 x0=0.805092 velocity_parameter=-0.226333 elapsed=6.43715s written=0
+  crossing 0/250
+  stopped velocity row 46 IC 502 x0=0.805092 velocity_parameter=-0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 46/120 IC 509/599 x0=0.805595 velocity_parameter=-0.226333 elapsed=6.48236s written=0
+  crossing 0/250
+  stopped velocity row 46 IC 509 x0=0.805595 velocity_parameter=-0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 47/120 IC 492/599 x0=0.804374 velocity_parameter=-0.210167 elapsed=6.48844s written=0
+  crossing 0/250
+  stopped velocity row 47 IC 492 x0=0.804374 velocity_parameter=-0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 47/120 IC 502/599 x0=0.805092 velocity_parameter=-0.210167 elapsed=6.55176s written=0
+  crossing 0/250
+  stopped velocity row 47 IC 502 x0=0.805092 velocity_parameter=-0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 47/120 IC 509/599 x0=0.805595 velocity_parameter=-0.210167 elapsed=6.59488s written=0
+  crossing 0/250
+  stopped velocity row 47 IC 509 x0=0.805595 velocity_parameter=-0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 48/120 IC 492/599 x0=0.804374 velocity_parameter=-0.194 elapsed=6.6005s written=0
+  crossing 0/250
+  stopped velocity row 48 IC 492 x0=0.804374 velocity_parameter=-0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 48/120 IC 502/599 x0=0.805092 velocity_parameter=-0.194 elapsed=6.67365s written=0
+  crossing 0/250
+  stopped velocity row 48 IC 502 x0=0.805092 velocity_parameter=-0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 48/120 IC 509/599 x0=0.805595 velocity_parameter=-0.194 elapsed=6.726s written=0
+  crossing 0/250
+  stopped velocity row 48 IC 509 x0=0.805595 velocity_parameter=-0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 49/120 IC 492/599 x0=0.804374 velocity_parameter=-0.177833 elapsed=6.73047s written=0
+  crossing 0/250
+  stopped velocity row 49 IC 492 x0=0.804374 velocity_parameter=-0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 49/120 IC 502/599 x0=0.805092 velocity_parameter=-0.177833 elapsed=6.79227s written=0
+  crossing 0/250
+  stopped velocity row 49 IC 502 x0=0.805092 velocity_parameter=-0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 49/120 IC 509/599 x0=0.805595 velocity_parameter=-0.177833 elapsed=6.83488s written=0
+  crossing 0/250
+  stopped velocity row 49 IC 509 x0=0.805595 velocity_parameter=-0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 50/120 IC 492/599 x0=0.804374 velocity_parameter=-0.161667 elapsed=6.84085s written=0
+  crossing 0/250
+  stopped velocity row 50 IC 492 x0=0.804374 velocity_parameter=-0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 50/120 IC 502/599 x0=0.805092 velocity_parameter=-0.161667 elapsed=6.90786s written=0
+  crossing 0/250
+  stopped velocity row 50 IC 502 x0=0.805092 velocity_parameter=-0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 50/120 IC 509/599 x0=0.805595 velocity_parameter=-0.161667 elapsed=6.95326s written=0
+  crossing 0/250
+  stopped velocity row 50 IC 509 x0=0.805595 velocity_parameter=-0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 51/120 IC 492/599 x0=0.804374 velocity_parameter=-0.1455 elapsed=6.95881s written=0
+  crossing 0/250
+  stopped velocity row 51 IC 492 x0=0.804374 velocity_parameter=-0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 51/120 IC 502/599 x0=0.805092 velocity_parameter=-0.1455 elapsed=7.02583s written=0
+  crossing 0/250
+  stopped velocity row 51 IC 502 x0=0.805092 velocity_parameter=-0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 51/120 IC 509/599 x0=0.805595 velocity_parameter=-0.1455 elapsed=7.07991s written=0
+  crossing 0/250
+  stopped velocity row 51 IC 509 x0=0.805595 velocity_parameter=-0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 52/120 IC 492/599 x0=0.804374 velocity_parameter=-0.129333 elapsed=7.08586s written=0
+  crossing 0/250
+  stopped velocity row 52 IC 492 x0=0.804374 velocity_parameter=-0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 52/120 IC 502/599 x0=0.805092 velocity_parameter=-0.129333 elapsed=7.17406s written=0
+  crossing 0/250
+  stopped velocity row 52 IC 502 x0=0.805092 velocity_parameter=-0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 52/120 IC 509/599 x0=0.805595 velocity_parameter=-0.129333 elapsed=7.21643s written=0
+  crossing 0/250
+  stopped velocity row 52 IC 509 x0=0.805595 velocity_parameter=-0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 53/120 IC 492/599 x0=0.804374 velocity_parameter=-0.113167 elapsed=7.22398s written=0
+  crossing 0/250
+  stopped velocity row 53 IC 492 x0=0.804374 velocity_parameter=-0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 53/120 IC 502/599 x0=0.805092 velocity_parameter=-0.113167 elapsed=7.28728s written=0
+  crossing 0/250
+  stopped velocity row 53 IC 502 x0=0.805092 velocity_parameter=-0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 53/120 IC 509/599 x0=0.805595 velocity_parameter=-0.113167 elapsed=7.33657s written=0
+  crossing 0/250
+  stopped velocity row 53 IC 509 x0=0.805595 velocity_parameter=-0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 54/120 IC 492/599 x0=0.804374 velocity_parameter=-0.097 elapsed=7.34455s written=0
+  crossing 0/250
+  stopped velocity row 54 IC 492 x0=0.804374 velocity_parameter=-0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 54/120 IC 502/599 x0=0.805092 velocity_parameter=-0.097 elapsed=7.40521s written=0
+  crossing 0/250
+  stopped velocity row 54 IC 502 x0=0.805092 velocity_parameter=-0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 54/120 IC 509/599 x0=0.805595 velocity_parameter=-0.097 elapsed=7.45145s written=0
+  crossing 0/250
+  stopped velocity row 54 IC 509 x0=0.805595 velocity_parameter=-0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 55/120 IC 492/599 x0=0.804374 velocity_parameter=-0.0808333 elapsed=7.46185s written=0
+  crossing 0/250
+  stopped velocity row 55 IC 492 x0=0.804374 velocity_parameter=-0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 55/120 IC 502/599 x0=0.805092 velocity_parameter=-0.0808333 elapsed=7.52744s written=0
+  crossing 0/250
+  stopped velocity row 55 IC 502 x0=0.805092 velocity_parameter=-0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 55/120 IC 509/599 x0=0.805595 velocity_parameter=-0.0808333 elapsed=7.57762s written=0
+  crossing 0/250
+  stopped velocity row 55 IC 509 x0=0.805595 velocity_parameter=-0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 56/120 IC 492/599 x0=0.804374 velocity_parameter=-0.0646667 elapsed=7.58509s written=0
+  crossing 0/250
+  stopped velocity row 56 IC 492 x0=0.804374 velocity_parameter=-0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 56/120 IC 502/599 x0=0.805092 velocity_parameter=-0.0646667 elapsed=7.65182s written=0
+  crossing 0/250
+  stopped velocity row 56 IC 502 x0=0.805092 velocity_parameter=-0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 56/120 IC 509/599 x0=0.805595 velocity_parameter=-0.0646667 elapsed=7.7042s written=0
+  crossing 0/250
+  stopped velocity row 56 IC 509 x0=0.805595 velocity_parameter=-0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 57/120 IC 492/599 x0=0.804374 velocity_parameter=-0.0485 elapsed=7.70905s written=0
+  crossing 0/250
+  stopped velocity row 57 IC 492 x0=0.804374 velocity_parameter=-0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 57/120 IC 502/599 x0=0.805092 velocity_parameter=-0.0485 elapsed=7.77754s written=0
+  crossing 0/250
+  stopped velocity row 57 IC 502 x0=0.805092 velocity_parameter=-0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 57/120 IC 509/599 x0=0.805595 velocity_parameter=-0.0485 elapsed=7.8177s written=0
+  crossing 0/250
+  stopped velocity row 57 IC 509 x0=0.805595 velocity_parameter=-0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 58/120 IC 492/599 x0=0.804374 velocity_parameter=-0.0323333 elapsed=7.82489s written=0
+  crossing 0/250
+  stopped velocity row 58 IC 492 x0=0.804374 velocity_parameter=-0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 58/120 IC 502/599 x0=0.805092 velocity_parameter=-0.0323333 elapsed=7.87841s written=0
+  crossing 0/250
+  stopped velocity row 58 IC 502 x0=0.805092 velocity_parameter=-0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 58/120 IC 509/599 x0=0.805595 velocity_parameter=-0.0323333 elapsed=7.92893s written=0
+  crossing 0/250
+  stopped velocity row 58 IC 509 x0=0.805595 velocity_parameter=-0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 59/120 IC 492/599 x0=0.804374 velocity_parameter=-0.0161667 elapsed=7.93414s written=0
+  crossing 0/250
+  stopped velocity row 59 IC 492 x0=0.804374 velocity_parameter=-0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 59/120 IC 502/599 x0=0.805092 velocity_parameter=-0.0161667 elapsed=8.00503s written=0
+  crossing 0/250
+  stopped velocity row 59 IC 502 x0=0.805092 velocity_parameter=-0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 59/120 IC 509/599 x0=0.805595 velocity_parameter=-0.0161667 elapsed=8.05467s written=0
+  crossing 0/250
+  stopped velocity row 59 IC 509 x0=0.805595 velocity_parameter=-0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 60/120 IC 492/599 x0=0.804374 velocity_parameter=0 elapsed=8.06204s written=0
+  crossing 0/250
+  stopped velocity row 60 IC 492 x0=0.804374 velocity_parameter=0 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 60/120 IC 502/599 x0=0.805092 velocity_parameter=0 elapsed=8.13293s written=0
+  crossing 0/250
+  stopped velocity row 60 IC 502 x0=0.805092 velocity_parameter=0 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 60/120 IC 509/599 x0=0.805595 velocity_parameter=0 elapsed=8.17432s written=0
+  crossing 0/250
+  stopped velocity row 60 IC 509 x0=0.805595 velocity_parameter=0 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 61/120 IC 492/599 x0=0.804374 velocity_parameter=0.0161667 elapsed=8.17997s written=0
+  crossing 0/250
+  stopped velocity row 61 IC 492 x0=0.804374 velocity_parameter=0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 61/120 IC 502/599 x0=0.805092 velocity_parameter=0.0161667 elapsed=8.25963s written=0
+  crossing 0/250
+  stopped velocity row 61 IC 502 x0=0.805092 velocity_parameter=0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 61/120 IC 509/599 x0=0.805595 velocity_parameter=0.0161667 elapsed=8.30573s written=0
+  crossing 0/250
+  stopped velocity row 61 IC 509 x0=0.805595 velocity_parameter=0.0161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 62/120 IC 492/599 x0=0.804374 velocity_parameter=0.0323333 elapsed=8.31557s written=0
+  crossing 0/250
+  stopped velocity row 62 IC 492 x0=0.804374 velocity_parameter=0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 62/120 IC 502/599 x0=0.805092 velocity_parameter=0.0323333 elapsed=8.39798s written=0
+  crossing 0/250
+  stopped velocity row 62 IC 502 x0=0.805092 velocity_parameter=0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 62/120 IC 509/599 x0=0.805595 velocity_parameter=0.0323333 elapsed=8.4462s written=0
+  crossing 0/250
+  stopped velocity row 62 IC 509 x0=0.805595 velocity_parameter=0.0323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 63/120 IC 492/599 x0=0.804374 velocity_parameter=0.0485 elapsed=8.45395s written=0
+  crossing 0/250
+  stopped velocity row 63 IC 492 x0=0.804374 velocity_parameter=0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 63/120 IC 502/599 x0=0.805092 velocity_parameter=0.0485 elapsed=8.51287s written=0
+  crossing 0/250
+  stopped velocity row 63 IC 502 x0=0.805092 velocity_parameter=0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 63/120 IC 509/599 x0=0.805595 velocity_parameter=0.0485 elapsed=8.55445s written=0
+  crossing 0/250
+  stopped velocity row 63 IC 509 x0=0.805595 velocity_parameter=0.0485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 64/120 IC 492/599 x0=0.804374 velocity_parameter=0.0646667 elapsed=8.56325s written=0
+  crossing 0/250
+  stopped velocity row 64 IC 492 x0=0.804374 velocity_parameter=0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 64/120 IC 502/599 x0=0.805092 velocity_parameter=0.0646667 elapsed=8.6327s written=0
+  crossing 0/250
+  stopped velocity row 64 IC 502 x0=0.805092 velocity_parameter=0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 64/120 IC 509/599 x0=0.805595 velocity_parameter=0.0646667 elapsed=8.67544s written=0
+  crossing 0/250
+  stopped velocity row 64 IC 509 x0=0.805595 velocity_parameter=0.0646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 65/120 IC 492/599 x0=0.804374 velocity_parameter=0.0808333 elapsed=8.68136s written=0
+  crossing 0/250
+  stopped velocity row 65 IC 492 x0=0.804374 velocity_parameter=0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 65/120 IC 502/599 x0=0.805092 velocity_parameter=0.0808333 elapsed=8.75818s written=0
+  crossing 0/250
+  stopped velocity row 65 IC 502 x0=0.805092 velocity_parameter=0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 65/120 IC 509/599 x0=0.805595 velocity_parameter=0.0808333 elapsed=8.80385s written=0
+  crossing 0/250
+  stopped velocity row 65 IC 509 x0=0.805595 velocity_parameter=0.0808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 66/120 IC 492/599 x0=0.804374 velocity_parameter=0.097 elapsed=8.80948s written=0
+  crossing 0/250
+  stopped velocity row 66 IC 492 x0=0.804374 velocity_parameter=0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 66/120 IC 502/599 x0=0.805092 velocity_parameter=0.097 elapsed=8.87073s written=0
+  crossing 0/250
+  stopped velocity row 66 IC 502 x0=0.805092 velocity_parameter=0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 66/120 IC 509/599 x0=0.805595 velocity_parameter=0.097 elapsed=8.9139s written=0
+  crossing 0/250
+  stopped velocity row 66 IC 509 x0=0.805595 velocity_parameter=0.097 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 67/120 IC 492/599 x0=0.804374 velocity_parameter=0.113167 elapsed=8.91994s written=0
+  crossing 0/250
+  stopped velocity row 67 IC 492 x0=0.804374 velocity_parameter=0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 67/120 IC 502/599 x0=0.805092 velocity_parameter=0.113167 elapsed=8.99125s written=0
+  crossing 0/250
+  stopped velocity row 67 IC 502 x0=0.805092 velocity_parameter=0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 67/120 IC 509/599 x0=0.805595 velocity_parameter=0.113167 elapsed=9.03144s written=0
+  crossing 0/250
+  stopped velocity row 67 IC 509 x0=0.805595 velocity_parameter=0.113167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 68/120 IC 492/599 x0=0.804374 velocity_parameter=0.129333 elapsed=9.03774s written=0
+  crossing 0/250
+  stopped velocity row 68 IC 492 x0=0.804374 velocity_parameter=0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 68/120 IC 502/599 x0=0.805092 velocity_parameter=0.129333 elapsed=9.10791s written=0
+  crossing 0/250
+  stopped velocity row 68 IC 502 x0=0.805092 velocity_parameter=0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 68/120 IC 509/599 x0=0.805595 velocity_parameter=0.129333 elapsed=9.15127s written=0
+  crossing 0/250
+  stopped velocity row 68 IC 509 x0=0.805595 velocity_parameter=0.129333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 69/120 IC 492/599 x0=0.804374 velocity_parameter=0.1455 elapsed=9.15705s written=0
+  crossing 0/250
+  stopped velocity row 69 IC 492 x0=0.804374 velocity_parameter=0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 69/120 IC 502/599 x0=0.805092 velocity_parameter=0.1455 elapsed=9.21885s written=0
+  crossing 0/250
+  stopped velocity row 69 IC 502 x0=0.805092 velocity_parameter=0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 69/120 IC 509/599 x0=0.805595 velocity_parameter=0.1455 elapsed=9.27595s written=0
+  crossing 0/250
+  stopped velocity row 69 IC 509 x0=0.805595 velocity_parameter=0.1455 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 70/120 IC 492/599 x0=0.804374 velocity_parameter=0.161667 elapsed=9.28628s written=0
+  crossing 0/250
+  stopped velocity row 70 IC 492 x0=0.804374 velocity_parameter=0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 70/120 IC 502/599 x0=0.805092 velocity_parameter=0.161667 elapsed=9.34899s written=0
+  crossing 0/250
+  stopped velocity row 70 IC 502 x0=0.805092 velocity_parameter=0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 70/120 IC 509/599 x0=0.805595 velocity_parameter=0.161667 elapsed=9.39528s written=0
+  crossing 0/250
+  stopped velocity row 70 IC 509 x0=0.805595 velocity_parameter=0.161667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 71/120 IC 492/599 x0=0.804374 velocity_parameter=0.177833 elapsed=9.40151s written=0
+  crossing 0/250
+  stopped velocity row 71 IC 492 x0=0.804374 velocity_parameter=0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 71/120 IC 502/599 x0=0.805092 velocity_parameter=0.177833 elapsed=9.46169s written=0
+  crossing 0/250
+  stopped velocity row 71 IC 502 x0=0.805092 velocity_parameter=0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 71/120 IC 509/599 x0=0.805595 velocity_parameter=0.177833 elapsed=9.50219s written=0
+  crossing 0/250
+  stopped velocity row 71 IC 509 x0=0.805595 velocity_parameter=0.177833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 72/120 IC 492/599 x0=0.804374 velocity_parameter=0.194 elapsed=9.50755s written=0
+  crossing 0/250
+  stopped velocity row 72 IC 492 x0=0.804374 velocity_parameter=0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 72/120 IC 502/599 x0=0.805092 velocity_parameter=0.194 elapsed=9.57201s written=0
+  crossing 0/250
+  stopped velocity row 72 IC 502 x0=0.805092 velocity_parameter=0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 72/120 IC 509/599 x0=0.805595 velocity_parameter=0.194 elapsed=9.62658s written=0
+  crossing 0/250
+  stopped velocity row 72 IC 509 x0=0.805595 velocity_parameter=0.194 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 73/120 IC 492/599 x0=0.804374 velocity_parameter=0.210167 elapsed=9.63137s written=0
+  crossing 0/250
+  stopped velocity row 73 IC 492 x0=0.804374 velocity_parameter=0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 73/120 IC 502/599 x0=0.805092 velocity_parameter=0.210167 elapsed=9.69135s written=0
+  crossing 0/250
+  stopped velocity row 73 IC 502 x0=0.805092 velocity_parameter=0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 73/120 IC 509/599 x0=0.805595 velocity_parameter=0.210167 elapsed=9.72967s written=0
+  crossing 0/250
+  stopped velocity row 73 IC 509 x0=0.805595 velocity_parameter=0.210167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 74/120 IC 492/599 x0=0.804374 velocity_parameter=0.226333 elapsed=9.73482s written=0
+  crossing 0/250
+  stopped velocity row 74 IC 492 x0=0.804374 velocity_parameter=0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 74/120 IC 502/599 x0=0.805092 velocity_parameter=0.226333 elapsed=9.80246s written=0
+  crossing 0/250
+  stopped velocity row 74 IC 502 x0=0.805092 velocity_parameter=0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 74/120 IC 509/599 x0=0.805595 velocity_parameter=0.226333 elapsed=9.85332s written=0
+  crossing 0/250
+  stopped velocity row 74 IC 509 x0=0.805595 velocity_parameter=0.226333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 75/120 IC 492/599 x0=0.804374 velocity_parameter=0.2425 elapsed=9.8605s written=0
+  crossing 0/250
+  stopped velocity row 75 IC 492 x0=0.804374 velocity_parameter=0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 75/120 IC 502/599 x0=0.805092 velocity_parameter=0.2425 elapsed=9.92559s written=0
+  crossing 0/250
+  stopped velocity row 75 IC 502 x0=0.805092 velocity_parameter=0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 75/120 IC 509/599 x0=0.805595 velocity_parameter=0.2425 elapsed=9.96643s written=0
+  crossing 0/250
+  stopped velocity row 75 IC 509 x0=0.805595 velocity_parameter=0.2425 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 76/120 IC 492/599 x0=0.804374 velocity_parameter=0.258667 elapsed=9.97131s written=0
+  crossing 0/250
+  stopped velocity row 76 IC 492 x0=0.804374 velocity_parameter=0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 76/120 IC 502/599 x0=0.805092 velocity_parameter=0.258667 elapsed=10.0382s written=0
+  crossing 0/250
+  stopped velocity row 76 IC 502 x0=0.805092 velocity_parameter=0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 76/120 IC 509/599 x0=0.805595 velocity_parameter=0.258667 elapsed=10.09s written=0
+  crossing 0/250
+  stopped velocity row 76 IC 509 x0=0.805595 velocity_parameter=0.258667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 77/120 IC 492/599 x0=0.804374 velocity_parameter=0.274833 elapsed=10.0948s written=0
+  crossing 0/250
+  stopped velocity row 77 IC 492 x0=0.804374 velocity_parameter=0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 77/120 IC 502/599 x0=0.805092 velocity_parameter=0.274833 elapsed=10.1629s written=0
+  crossing 0/250
+  stopped velocity row 77 IC 502 x0=0.805092 velocity_parameter=0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 77/120 IC 509/599 x0=0.805595 velocity_parameter=0.274833 elapsed=10.213s written=0
+  crossing 0/250
+  stopped velocity row 77 IC 509 x0=0.805595 velocity_parameter=0.274833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 78/120 IC 492/599 x0=0.804374 velocity_parameter=0.291 elapsed=10.2191s written=0
+  crossing 0/250
+  stopped velocity row 78 IC 492 x0=0.804374 velocity_parameter=0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 78/120 IC 502/599 x0=0.805092 velocity_parameter=0.291 elapsed=10.2879s written=0
+  crossing 0/250
+  stopped velocity row 78 IC 502 x0=0.805092 velocity_parameter=0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 78/120 IC 509/599 x0=0.805595 velocity_parameter=0.291 elapsed=10.3314s written=0
+  crossing 0/250
+  stopped velocity row 78 IC 509 x0=0.805595 velocity_parameter=0.291 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 79/120 IC 492/599 x0=0.804374 velocity_parameter=0.307167 elapsed=10.3373s written=0
+  crossing 0/250
+  stopped velocity row 79 IC 492 x0=0.804374 velocity_parameter=0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 79/120 IC 502/599 x0=0.805092 velocity_parameter=0.307167 elapsed=10.3998s written=0
+  crossing 0/250
+  stopped velocity row 79 IC 502 x0=0.805092 velocity_parameter=0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 79/120 IC 509/599 x0=0.805595 velocity_parameter=0.307167 elapsed=10.4445s written=0
+  crossing 0/250
+  stopped velocity row 79 IC 509 x0=0.805595 velocity_parameter=0.307167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 80/120 IC 492/599 x0=0.804374 velocity_parameter=0.323333 elapsed=10.4488s written=0
+  crossing 0/250
+  stopped velocity row 80 IC 492 x0=0.804374 velocity_parameter=0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 80/120 IC 502/599 x0=0.805092 velocity_parameter=0.323333 elapsed=10.5084s written=0
+  crossing 0/250
+  stopped velocity row 80 IC 502 x0=0.805092 velocity_parameter=0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 80/120 IC 509/599 x0=0.805595 velocity_parameter=0.323333 elapsed=10.5507s written=0
+  crossing 0/250
+  stopped velocity row 80 IC 509 x0=0.805595 velocity_parameter=0.323333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 81/120 IC 492/599 x0=0.804374 velocity_parameter=0.3395 elapsed=10.5582s written=0
+  crossing 0/250
+  stopped velocity row 81 IC 492 x0=0.804374 velocity_parameter=0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 81/120 IC 502/599 x0=0.805092 velocity_parameter=0.3395 elapsed=10.6309s written=0
+  crossing 0/250
+  stopped velocity row 81 IC 502 x0=0.805092 velocity_parameter=0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 81/120 IC 509/599 x0=0.805595 velocity_parameter=0.3395 elapsed=10.6723s written=0
+  crossing 0/250
+  stopped velocity row 81 IC 509 x0=0.805595 velocity_parameter=0.3395 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 82/120 IC 492/599 x0=0.804374 velocity_parameter=0.355667 elapsed=10.681s written=0
+  crossing 0/250
+  stopped velocity row 82 IC 492 x0=0.804374 velocity_parameter=0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 82/120 IC 502/599 x0=0.805092 velocity_parameter=0.355667 elapsed=10.742s written=0
+  crossing 0/250
+  stopped velocity row 82 IC 502 x0=0.805092 velocity_parameter=0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 82/120 IC 509/599 x0=0.805595 velocity_parameter=0.355667 elapsed=10.7841s written=0
+  crossing 0/250
+  stopped velocity row 82 IC 509 x0=0.805595 velocity_parameter=0.355667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 83/120 IC 492/599 x0=0.804374 velocity_parameter=0.371833 elapsed=10.7895s written=0
+  crossing 0/250
+  stopped velocity row 83 IC 492 x0=0.804374 velocity_parameter=0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 83/120 IC 502/599 x0=0.805092 velocity_parameter=0.371833 elapsed=10.849s written=0
+  crossing 0/250
+  stopped velocity row 83 IC 502 x0=0.805092 velocity_parameter=0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 83/120 IC 509/599 x0=0.805595 velocity_parameter=0.371833 elapsed=10.8873s written=0
+  crossing 0/250
+  stopped velocity row 83 IC 509 x0=0.805595 velocity_parameter=0.371833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 84/120 IC 492/599 x0=0.804374 velocity_parameter=0.388 elapsed=10.8921s written=0
+  crossing 0/250
+  stopped velocity row 84 IC 492 x0=0.804374 velocity_parameter=0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 84/120 IC 502/599 x0=0.805092 velocity_parameter=0.388 elapsed=10.954s written=0
+  crossing 0/250
+  stopped velocity row 84 IC 502 x0=0.805092 velocity_parameter=0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 84/120 IC 509/599 x0=0.805595 velocity_parameter=0.388 elapsed=10.9927s written=0
+  crossing 0/250
+  stopped velocity row 84 IC 509 x0=0.805595 velocity_parameter=0.388 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 85/120 IC 492/599 x0=0.804374 velocity_parameter=0.404167 elapsed=10.998s written=0
+  crossing 0/250
+  stopped velocity row 85 IC 492 x0=0.804374 velocity_parameter=0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 85/120 IC 502/599 x0=0.805092 velocity_parameter=0.404167 elapsed=11.051s written=0
+  crossing 0/250
+  stopped velocity row 85 IC 502 x0=0.805092 velocity_parameter=0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 85/120 IC 509/599 x0=0.805595 velocity_parameter=0.404167 elapsed=11.088s written=0
+  crossing 0/250
+  stopped velocity row 85 IC 509 x0=0.805595 velocity_parameter=0.404167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 86/120 IC 492/599 x0=0.804374 velocity_parameter=0.420333 elapsed=11.0928s written=0
+  crossing 0/250
+  stopped velocity row 86 IC 492 x0=0.804374 velocity_parameter=0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 86/120 IC 502/599 x0=0.805092 velocity_parameter=0.420333 elapsed=11.1529s written=0
+  crossing 0/250
+  stopped velocity row 86 IC 502 x0=0.805092 velocity_parameter=0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 86/120 IC 509/599 x0=0.805595 velocity_parameter=0.420333 elapsed=11.2051s written=0
+  crossing 0/250
+  stopped velocity row 86 IC 509 x0=0.805595 velocity_parameter=0.420333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 87/120 IC 492/599 x0=0.804374 velocity_parameter=0.4365 elapsed=11.212s written=0
+  crossing 0/250
+  stopped velocity row 87 IC 492 x0=0.804374 velocity_parameter=0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 87/120 IC 502/599 x0=0.805092 velocity_parameter=0.4365 elapsed=11.2769s written=0
+  crossing 0/250
+  stopped velocity row 87 IC 502 x0=0.805092 velocity_parameter=0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 87/120 IC 509/599 x0=0.805595 velocity_parameter=0.4365 elapsed=11.3143s written=0
+  crossing 0/250
+  stopped velocity row 87 IC 509 x0=0.805595 velocity_parameter=0.4365 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 88/120 IC 492/599 x0=0.804374 velocity_parameter=0.452667 elapsed=11.3191s written=0
+  crossing 0/250
+  stopped velocity row 88 IC 492 x0=0.804374 velocity_parameter=0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 88/120 IC 502/599 x0=0.805092 velocity_parameter=0.452667 elapsed=11.3811s written=0
+  crossing 0/250
+  stopped velocity row 88 IC 502 x0=0.805092 velocity_parameter=0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 88/120 IC 509/599 x0=0.805595 velocity_parameter=0.452667 elapsed=11.4197s written=0
+  crossing 0/250
+  stopped velocity row 88 IC 509 x0=0.805595 velocity_parameter=0.452667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 89/120 IC 492/599 x0=0.804374 velocity_parameter=0.468833 elapsed=11.4251s written=0
+  crossing 0/250
+  stopped velocity row 89 IC 492 x0=0.804374 velocity_parameter=0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 89/120 IC 502/599 x0=0.805092 velocity_parameter=0.468833 elapsed=11.4808s written=0
+  crossing 0/250
+  stopped velocity row 89 IC 502 x0=0.805092 velocity_parameter=0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 89/120 IC 509/599 x0=0.805595 velocity_parameter=0.468833 elapsed=11.5188s written=0
+  crossing 0/250
+  stopped velocity row 89 IC 509 x0=0.805595 velocity_parameter=0.468833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 90/120 IC 492/599 x0=0.804374 velocity_parameter=0.485 elapsed=11.5251s written=0
+  crossing 0/250
+  stopped velocity row 90 IC 492 x0=0.804374 velocity_parameter=0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 90/120 IC 502/599 x0=0.805092 velocity_parameter=0.485 elapsed=11.5871s written=0
+  crossing 0/250
+  stopped velocity row 90 IC 502 x0=0.805092 velocity_parameter=0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 90/120 IC 509/599 x0=0.805595 velocity_parameter=0.485 elapsed=11.624s written=0
+  crossing 0/250
+  stopped velocity row 90 IC 509 x0=0.805595 velocity_parameter=0.485 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 91/120 IC 492/599 x0=0.804374 velocity_parameter=0.501167 elapsed=11.6291s written=0
+  crossing 0/250
+  stopped velocity row 91 IC 492 x0=0.804374 velocity_parameter=0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 91/120 IC 502/599 x0=0.805092 velocity_parameter=0.501167 elapsed=11.6883s written=0
+  crossing 0/250
+  stopped velocity row 91 IC 502 x0=0.805092 velocity_parameter=0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 91/120 IC 509/599 x0=0.805595 velocity_parameter=0.501167 elapsed=11.736s written=0
+  crossing 0/250
+  stopped velocity row 91 IC 509 x0=0.805595 velocity_parameter=0.501167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 92/120 IC 492/599 x0=0.804374 velocity_parameter=0.517333 elapsed=11.7445s written=0
+  crossing 0/250
+  stopped velocity row 92 IC 492 x0=0.804374 velocity_parameter=0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 92/120 IC 502/599 x0=0.805092 velocity_parameter=0.517333 elapsed=11.8023s written=0
+  crossing 0/250
+  stopped velocity row 92 IC 502 x0=0.805092 velocity_parameter=0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 92/120 IC 509/599 x0=0.805595 velocity_parameter=0.517333 elapsed=11.8659s written=0
+  crossing 0/250
+  stopped velocity row 92 IC 509 x0=0.805595 velocity_parameter=0.517333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 93/120 IC 492/599 x0=0.804374 velocity_parameter=0.5335 elapsed=11.8734s written=0
+  crossing 0/250
+  stopped velocity row 93 IC 492 x0=0.804374 velocity_parameter=0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 93/120 IC 502/599 x0=0.805092 velocity_parameter=0.5335 elapsed=11.9255s written=0
+  crossing 0/250
+  stopped velocity row 93 IC 502 x0=0.805092 velocity_parameter=0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 93/120 IC 509/599 x0=0.805595 velocity_parameter=0.5335 elapsed=11.9629s written=0
+  crossing 0/250
+  stopped velocity row 93 IC 509 x0=0.805595 velocity_parameter=0.5335 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 94/120 IC 492/599 x0=0.804374 velocity_parameter=0.549667 elapsed=11.9688s written=0
+  crossing 0/250
+  stopped velocity row 94 IC 492 x0=0.804374 velocity_parameter=0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 94/120 IC 502/599 x0=0.805092 velocity_parameter=0.549667 elapsed=12.0237s written=0
+  crossing 0/250
+  stopped velocity row 94 IC 502 x0=0.805092 velocity_parameter=0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 94/120 IC 509/599 x0=0.805595 velocity_parameter=0.549667 elapsed=12.062s written=0
+  crossing 0/250
+  stopped velocity row 94 IC 509 x0=0.805595 velocity_parameter=0.549667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 95/120 IC 492/599 x0=0.804374 velocity_parameter=0.565833 elapsed=12.0676s written=0
+  crossing 0/250
+  stopped velocity row 95 IC 492 x0=0.804374 velocity_parameter=0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 95/120 IC 502/599 x0=0.805092 velocity_parameter=0.565833 elapsed=12.1291s written=0
+  crossing 0/250
+  stopped velocity row 95 IC 502 x0=0.805092 velocity_parameter=0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 95/120 IC 509/599 x0=0.805595 velocity_parameter=0.565833 elapsed=12.1672s written=0
+  crossing 0/250
+  stopped velocity row 95 IC 509 x0=0.805595 velocity_parameter=0.565833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 96/120 IC 492/599 x0=0.804374 velocity_parameter=0.582 elapsed=12.1769s written=0
+  crossing 0/250
+  stopped velocity row 96 IC 492 x0=0.804374 velocity_parameter=0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 96/120 IC 502/599 x0=0.805092 velocity_parameter=0.582 elapsed=12.2348s written=0
+  crossing 0/250
+  stopped velocity row 96 IC 502 x0=0.805092 velocity_parameter=0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 96/120 IC 509/599 x0=0.805595 velocity_parameter=0.582 elapsed=12.2718s written=0
+  crossing 0/250
+  stopped velocity row 96 IC 509 x0=0.805595 velocity_parameter=0.582 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 97/120 IC 492/599 x0=0.804374 velocity_parameter=0.598167 elapsed=12.277s written=0
+  crossing 0/250
+  stopped velocity row 97 IC 492 x0=0.804374 velocity_parameter=0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 97/120 IC 502/599 x0=0.805092 velocity_parameter=0.598167 elapsed=12.3324s written=0
+  crossing 0/250
+  stopped velocity row 97 IC 502 x0=0.805092 velocity_parameter=0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 97/120 IC 509/599 x0=0.805595 velocity_parameter=0.598167 elapsed=12.3728s written=0
+  crossing 0/250
+  stopped velocity row 97 IC 509 x0=0.805595 velocity_parameter=0.598167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 98/120 IC 492/599 x0=0.804374 velocity_parameter=0.614333 elapsed=12.3777s written=0
+  crossing 0/250
+  stopped velocity row 98 IC 492 x0=0.804374 velocity_parameter=0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 98/120 IC 502/599 x0=0.805092 velocity_parameter=0.614333 elapsed=12.4326s written=0
+  crossing 0/250
+  stopped velocity row 98 IC 502 x0=0.805092 velocity_parameter=0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 98/120 IC 509/599 x0=0.805595 velocity_parameter=0.614333 elapsed=12.4711s written=0
+  crossing 0/250
+  stopped velocity row 98 IC 509 x0=0.805595 velocity_parameter=0.614333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 99/120 IC 492/599 x0=0.804374 velocity_parameter=0.6305 elapsed=12.4765s written=0
+  crossing 0/250
+  stopped velocity row 99 IC 492 x0=0.804374 velocity_parameter=0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 99/120 IC 502/599 x0=0.805092 velocity_parameter=0.6305 elapsed=12.5384s written=0
+  crossing 0/250
+  stopped velocity row 99 IC 502 x0=0.805092 velocity_parameter=0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 99/120 IC 509/599 x0=0.805595 velocity_parameter=0.6305 elapsed=12.58s written=0
+  crossing 0/250
+  stopped velocity row 99 IC 509 x0=0.805595 velocity_parameter=0.6305 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 100/120 IC 492/599 x0=0.804374 velocity_parameter=0.646667 elapsed=12.5853s written=0
+  crossing 0/250
+  stopped velocity row 100 IC 492 x0=0.804374 velocity_parameter=0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 100/120 IC 502/599 x0=0.805092 velocity_parameter=0.646667 elapsed=12.6436s written=0
+  crossing 0/250
+  stopped velocity row 100 IC 502 x0=0.805092 velocity_parameter=0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 100/120 IC 509/599 x0=0.805595 velocity_parameter=0.646667 elapsed=12.6953s written=0
+  crossing 0/250
+  stopped velocity row 100 IC 509 x0=0.805595 velocity_parameter=0.646667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 101/120 IC 492/599 x0=0.804374 velocity_parameter=0.662833 elapsed=12.7013s written=0
+  crossing 0/250
+  stopped velocity row 101 IC 492 x0=0.804374 velocity_parameter=0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 101/120 IC 502/599 x0=0.805092 velocity_parameter=0.662833 elapsed=12.7548s written=0
+  crossing 0/250
+  stopped velocity row 101 IC 502 x0=0.805092 velocity_parameter=0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 101/120 IC 509/599 x0=0.805595 velocity_parameter=0.662833 elapsed=12.7914s written=0
+  crossing 0/250
+  stopped velocity row 101 IC 509 x0=0.805595 velocity_parameter=0.662833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 102/120 IC 492/599 x0=0.804374 velocity_parameter=0.679 elapsed=12.8009s written=0
+  crossing 0/250
+  stopped velocity row 102 IC 492 x0=0.804374 velocity_parameter=0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 102/120 IC 502/599 x0=0.805092 velocity_parameter=0.679 elapsed=12.8735s written=0
+  crossing 0/250
+  stopped velocity row 102 IC 502 x0=0.805092 velocity_parameter=0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 102/120 IC 509/599 x0=0.805595 velocity_parameter=0.679 elapsed=12.9187s written=0
+  crossing 0/250
+  stopped velocity row 102 IC 509 x0=0.805595 velocity_parameter=0.679 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 103/120 IC 492/599 x0=0.804374 velocity_parameter=0.695167 elapsed=12.9236s written=0
+  crossing 0/250
+  stopped velocity row 103 IC 492 x0=0.804374 velocity_parameter=0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 103/120 IC 502/599 x0=0.805092 velocity_parameter=0.695167 elapsed=12.9894s written=0
+  crossing 0/250
+  stopped velocity row 103 IC 502 x0=0.805092 velocity_parameter=0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 103/120 IC 509/599 x0=0.805595 velocity_parameter=0.695167 elapsed=13.0331s written=0
+  crossing 0/250
+  stopped velocity row 103 IC 509 x0=0.805595 velocity_parameter=0.695167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 104/120 IC 492/599 x0=0.804374 velocity_parameter=0.711333 elapsed=13.0439s written=0
+  crossing 0/250
+  stopped velocity row 104 IC 492 x0=0.804374 velocity_parameter=0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 104/120 IC 502/599 x0=0.805092 velocity_parameter=0.711333 elapsed=13.1053s written=0
+  crossing 0/250
+  stopped velocity row 104 IC 502 x0=0.805092 velocity_parameter=0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 104/120 IC 509/599 x0=0.805595 velocity_parameter=0.711333 elapsed=13.1461s written=0
+  crossing 0/250
+  stopped velocity row 104 IC 509 x0=0.805595 velocity_parameter=0.711333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 105/120 IC 492/599 x0=0.804374 velocity_parameter=0.7275 elapsed=13.1546s written=0
+  crossing 0/250
+  stopped velocity row 105 IC 492 x0=0.804374 velocity_parameter=0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 105/120 IC 502/599 x0=0.805092 velocity_parameter=0.7275 elapsed=13.2125s written=0
+  crossing 0/250
+  stopped velocity row 105 IC 502 x0=0.805092 velocity_parameter=0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 105/120 IC 509/599 x0=0.805595 velocity_parameter=0.7275 elapsed=13.2609s written=0
+  crossing 0/250
+  stopped velocity row 105 IC 509 x0=0.805595 velocity_parameter=0.7275 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 106/120 IC 492/599 x0=0.804374 velocity_parameter=0.743667 elapsed=13.2685s written=0
+  crossing 0/250
+  stopped velocity row 106 IC 492 x0=0.804374 velocity_parameter=0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 106/120 IC 502/599 x0=0.805092 velocity_parameter=0.743667 elapsed=13.3241s written=0
+  crossing 0/250
+  stopped velocity row 106 IC 502 x0=0.805092 velocity_parameter=0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 106/120 IC 509/599 x0=0.805595 velocity_parameter=0.743667 elapsed=13.3684s written=0
+  crossing 0/250
+  stopped velocity row 106 IC 509 x0=0.805595 velocity_parameter=0.743667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 107/120 IC 492/599 x0=0.804374 velocity_parameter=0.759833 elapsed=13.3736s written=0
+  crossing 0/250
+  stopped velocity row 107 IC 492 x0=0.804374 velocity_parameter=0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 107/120 IC 502/599 x0=0.805092 velocity_parameter=0.759833 elapsed=13.433s written=0
+  crossing 0/250
+  stopped velocity row 107 IC 502 x0=0.805092 velocity_parameter=0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 107/120 IC 509/599 x0=0.805595 velocity_parameter=0.759833 elapsed=13.4854s written=0
+  crossing 0/250
+  stopped velocity row 107 IC 509 x0=0.805595 velocity_parameter=0.759833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 108/120 IC 492/599 x0=0.804374 velocity_parameter=0.776 elapsed=13.4911s written=0
+  crossing 0/250
+  stopped velocity row 108 IC 492 x0=0.804374 velocity_parameter=0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 108/120 IC 502/599 x0=0.805092 velocity_parameter=0.776 elapsed=13.5519s written=0
+  crossing 0/250
+  stopped velocity row 108 IC 502 x0=0.805092 velocity_parameter=0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 108/120 IC 509/599 x0=0.805595 velocity_parameter=0.776 elapsed=13.5942s written=0
+  crossing 0/250
+  stopped velocity row 108 IC 509 x0=0.805595 velocity_parameter=0.776 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 109/120 IC 492/599 x0=0.804374 velocity_parameter=0.792167 elapsed=13.6001s written=0
+  crossing 0/250
+  stopped velocity row 109 IC 492 x0=0.804374 velocity_parameter=0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 109/120 IC 502/599 x0=0.805092 velocity_parameter=0.792167 elapsed=13.6631s written=0
+  crossing 0/250
+  stopped velocity row 109 IC 502 x0=0.805092 velocity_parameter=0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 109/120 IC 509/599 x0=0.805595 velocity_parameter=0.792167 elapsed=13.7018s written=0
+  crossing 0/250
+  stopped velocity row 109 IC 509 x0=0.805595 velocity_parameter=0.792167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 110/120 IC 492/599 x0=0.804374 velocity_parameter=0.808333 elapsed=13.7063s written=0
+  crossing 0/250
+  stopped velocity row 110 IC 492 x0=0.804374 velocity_parameter=0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 110/120 IC 502/599 x0=0.805092 velocity_parameter=0.808333 elapsed=13.7656s written=0
+  crossing 0/250
+  stopped velocity row 110 IC 502 x0=0.805092 velocity_parameter=0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 110/120 IC 509/599 x0=0.805595 velocity_parameter=0.808333 elapsed=13.8066s written=0
+  crossing 0/250
+  stopped velocity row 110 IC 509 x0=0.805595 velocity_parameter=0.808333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 111/120 IC 492/599 x0=0.804374 velocity_parameter=0.8245 elapsed=13.8126s written=0
+  crossing 0/250
+  stopped velocity row 111 IC 492 x0=0.804374 velocity_parameter=0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 111/120 IC 502/599 x0=0.805092 velocity_parameter=0.8245 elapsed=13.867s written=0
+  crossing 0/250
+  stopped velocity row 111 IC 502 x0=0.805092 velocity_parameter=0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 111/120 IC 509/599 x0=0.805595 velocity_parameter=0.8245 elapsed=13.9036s written=0
+  crossing 0/250
+  stopped velocity row 111 IC 509 x0=0.805595 velocity_parameter=0.8245 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 112/120 IC 492/599 x0=0.804374 velocity_parameter=0.840667 elapsed=13.9072s written=0
+  crossing 0/250
+  stopped velocity row 112 IC 492 x0=0.804374 velocity_parameter=0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 112/120 IC 502/599 x0=0.805092 velocity_parameter=0.840667 elapsed=13.9635s written=0
+  crossing 0/250
+  stopped velocity row 112 IC 502 x0=0.805092 velocity_parameter=0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 112/120 IC 509/599 x0=0.805595 velocity_parameter=0.840667 elapsed=14.0012s written=0
+  crossing 0/250
+  stopped velocity row 112 IC 509 x0=0.805595 velocity_parameter=0.840667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 113/120 IC 492/599 x0=0.804374 velocity_parameter=0.856833 elapsed=14.0062s written=0
+  crossing 0/250
+  stopped velocity row 113 IC 492 x0=0.804374 velocity_parameter=0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 113/120 IC 502/599 x0=0.805092 velocity_parameter=0.856833 elapsed=14.0606s written=0
+  crossing 0/250
+  stopped velocity row 113 IC 502 x0=0.805092 velocity_parameter=0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 113/120 IC 509/599 x0=0.805595 velocity_parameter=0.856833 elapsed=14.101s written=0
+  crossing 0/250
+  stopped velocity row 113 IC 509 x0=0.805595 velocity_parameter=0.856833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 114/120 IC 492/599 x0=0.804374 velocity_parameter=0.873 elapsed=14.1057s written=0
+  crossing 0/250
+  stopped velocity row 114 IC 492 x0=0.804374 velocity_parameter=0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 114/120 IC 502/599 x0=0.805092 velocity_parameter=0.873 elapsed=14.1622s written=0
+  crossing 0/250
+  stopped velocity row 114 IC 502 x0=0.805092 velocity_parameter=0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 114/120 IC 509/599 x0=0.805595 velocity_parameter=0.873 elapsed=14.1983s written=0
+  crossing 0/250
+  stopped velocity row 114 IC 509 x0=0.805595 velocity_parameter=0.873 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 115/120 IC 492/599 x0=0.804374 velocity_parameter=0.889167 elapsed=14.2041s written=0
+  crossing 0/250
+  stopped velocity row 115 IC 492 x0=0.804374 velocity_parameter=0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 115/120 IC 502/599 x0=0.805092 velocity_parameter=0.889167 elapsed=14.2522s written=0
+  crossing 0/250
+  stopped velocity row 115 IC 502 x0=0.805092 velocity_parameter=0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 115/120 IC 509/599 x0=0.805595 velocity_parameter=0.889167 elapsed=14.291s written=0
+  crossing 0/250
+  stopped velocity row 115 IC 509 x0=0.805595 velocity_parameter=0.889167 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 116/120 IC 492/599 x0=0.804374 velocity_parameter=0.905333 elapsed=14.2961s written=0
+  crossing 0/250
+  stopped velocity row 116 IC 492 x0=0.804374 velocity_parameter=0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 116/120 IC 502/599 x0=0.805092 velocity_parameter=0.905333 elapsed=14.3467s written=0
+  crossing 0/250
+  stopped velocity row 116 IC 502 x0=0.805092 velocity_parameter=0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 116/120 IC 509/599 x0=0.805595 velocity_parameter=0.905333 elapsed=14.3833s written=0
+  crossing 0/250
+  stopped velocity row 116 IC 509 x0=0.805595 velocity_parameter=0.905333 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 117/120 IC 492/599 x0=0.804374 velocity_parameter=0.9215 elapsed=14.3876s written=0
+  crossing 0/250
+  stopped velocity row 117 IC 492 x0=0.804374 velocity_parameter=0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 117/120 IC 502/599 x0=0.805092 velocity_parameter=0.9215 elapsed=14.4372s written=0
+  crossing 0/250
+  stopped velocity row 117 IC 502 x0=0.805092 velocity_parameter=0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 117/120 IC 509/599 x0=0.805595 velocity_parameter=0.9215 elapsed=14.4684s written=0
+  crossing 0/250
+  stopped velocity row 117 IC 509 x0=0.805595 velocity_parameter=0.9215 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 118/120 IC 492/599 x0=0.804374 velocity_parameter=0.937667 elapsed=14.4732s written=0
+  crossing 0/250
+  stopped velocity row 118 IC 492 x0=0.804374 velocity_parameter=0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 118/120 IC 502/599 x0=0.805092 velocity_parameter=0.937667 elapsed=14.5265s written=0
+  crossing 0/250
+  stopped velocity row 118 IC 502 x0=0.805092 velocity_parameter=0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 118/120 IC 509/599 x0=0.805595 velocity_parameter=0.937667 elapsed=14.5649s written=0
+  crossing 0/250
+  stopped velocity row 118 IC 509 x0=0.805595 velocity_parameter=0.937667 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 119/120 IC 492/599 x0=0.804374 velocity_parameter=0.953833 elapsed=14.5698s written=0
+  crossing 0/250
+  stopped velocity row 119 IC 492 x0=0.804374 velocity_parameter=0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 119/120 IC 502/599 x0=0.805092 velocity_parameter=0.953833 elapsed=14.618s written=0
+  crossing 0/250
+  stopped velocity row 119 IC 502 x0=0.805092 velocity_parameter=0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 119/120 IC 509/599 x0=0.805595 velocity_parameter=0.953833 elapsed=14.6524s written=0
+  crossing 0/250
+  stopped velocity row 119 IC 509 x0=0.805595 velocity_parameter=0.953833 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 120/120 IC 492/599 x0=0.804374 velocity_parameter=0.97 elapsed=14.6571s written=0
+  crossing 0/250
+  stopped velocity row 120 IC 492 x0=0.804374 velocity_parameter=0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 120/120 IC 502/599 x0=0.805092 velocity_parameter=0.97 elapsed=14.7056s written=0
+  crossing 0/250
+  stopped velocity row 120 IC 502 x0=0.805092 velocity_parameter=0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+velocity row 120/120 IC 509/599 x0=0.805595 velocity_parameter=0.97 elapsed=14.7402s written=0
+  crossing 0/250
+  stopped velocity row 120 IC 509 x0=0.805595 velocity_parameter=0.97 status=outer_limit: trajectory reached the configured outer_limit radius
+metadata -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_002_delta_1e_minus_4/open/shard_0026/metadata.txt
+wrote 0 points (0 ICs skipped, 2178 orbits stopped early, elapsed=14.7452s) -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_002_delta_1e_minus_4/open/shard_0026/points.csv
+outcomes: collision=0 completed=0 forbidden=0 inner_radius_limit=0 invalid_initial_radius=0 invalid_velocity=0 nontransverse=0 numerical_failure=0 outer_limit=2178 timeout=0
+maximum sampled |H-h|=1.27993e-15

@@ -1,0 +1,13 @@
+rigorous_interval_mode=1
+parameter_file=Hill_4BP_parameters.cfg
+E1_rho=[0.79055471077214845,0.79055471077214889] E1_hcrit=[-2.391536893860716,-2.3915368938607124]
+E3_rho=[3.3515520023013399,3.3515520023013412] E3_hcrit=[-0.45403875302931956,-0.45403875302931912]
+Omega_xx(E1)=[10.815784438880462,10.815784438880488] Omega_yy(E1)=[-2.9454902839400399,-2.9454902839400314]
+first_neck_certified=1 global_axis_roots=1 no_mixed_axis=1 side=closed delta=[0.0009999999999999998,0.0010000000000000002] h=[-2.3925368938607163,-2.3925368938607123]
+x_window=[0.72256299658432133,0.85854642495997602] neck_length_scale=[0.013598342837565384,0.013598342837565407] grid_mode=points
+grid=81x33 shard=[75,76] iterates=1 tau_cap=[99.999999999999986,100.00000000000001] max_step_retries=24 event_scan_node_budget=131072
+validated root cells=25 leaves=25
+validated root cells=50 leaves=50
+interval output -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_interval_fixed_20260801T193103Z/proof/level_001_delta_1e_minus_3/closed/shard_0029/interval_enclosures.csv
+proof metadata -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_interval_fixed_20260801T193103Z/proof/level_001_delta_1e_minus_3/closed/shard_0029/proof_metadata.txt
+proof_complete=1 resolved=66 unresolved=0 elapsed=95.973660857000013s

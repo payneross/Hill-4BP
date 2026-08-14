@@ -1,0 +1,735 @@
+zero-velocity boundary -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_004_delta_1e_minus_6/closed/shard_0015/zero_velocity_boundary.csv
+lambda1=0.0272549 lambda2=2.97275 A=-0.986373 B=0.486373 c=0.0976566 c1=0 c2=0 c3=-0.0976566 h=-2.39154 (C=4.78308)
+E1/E2 neck h=-2.39154 (C=4.78307), E3/E4 neck h=-0.454039 (C=0.908078)
+energy_mode=neck_delta neck=E1 hcrit=-2.39154 delta=1e-06 side=closed actual_neck_side=closed delta_h=-1e-06
+x_count=600 xdot_count=121 iterates=250 index range=[285,303] velocity_mode=fraction x_range=[0.788405,0.792705] max_return_time=100
+smooth coordinates R=sqrt(rho), CAPD crossing mode=Both solver_order=28 max_step=0.005 abs_tol=1e-15 rel_tol=1e-13 collision_radius=1e-06 outer_radius=5
+velocity row 0/120 IC 285/599 x0=0.790451 velocity_parameter=-0.97 elapsed=1.39e-07s written=0
+  skipped: outside allowed region
+velocity row 0/120 IC 295/599 x0=0.790522 velocity_parameter=-0.97 elapsed=0.0145715s written=0
+  skipped: outside allowed region
+velocity row 0/120 IC 303/599 x0=0.79058 velocity_parameter=-0.97 elapsed=0.025938s written=0
+  skipped: outside allowed region
+velocity row 1/120 IC 285/599 x0=0.790451 velocity_parameter=-0.953833 elapsed=0.0281799s written=0
+  skipped: outside allowed region
+velocity row 1/120 IC 295/599 x0=0.790522 velocity_parameter=-0.953833 elapsed=0.0413861s written=0
+  skipped: outside allowed region
+velocity row 1/120 IC 303/599 x0=0.79058 velocity_parameter=-0.953833 elapsed=0.0541485s written=0
+  skipped: outside allowed region
+velocity row 2/120 IC 285/599 x0=0.790451 velocity_parameter=-0.937667 elapsed=0.0552485s written=0
+  skipped: outside allowed region
+velocity row 2/120 IC 295/599 x0=0.790522 velocity_parameter=-0.937667 elapsed=0.103906s written=0
+  skipped: outside allowed region
+velocity row 2/120 IC 303/599 x0=0.79058 velocity_parameter=-0.937667 elapsed=0.118177s written=0
+  skipped: outside allowed region
+velocity row 3/120 IC 285/599 x0=0.790451 velocity_parameter=-0.9215 elapsed=0.119295s written=0
+  skipped: outside allowed region
+velocity row 3/120 IC 295/599 x0=0.790522 velocity_parameter=-0.9215 elapsed=0.133005s written=0
+  skipped: outside allowed region
+velocity row 3/120 IC 303/599 x0=0.79058 velocity_parameter=-0.9215 elapsed=0.146916s written=0
+  skipped: outside allowed region
+velocity row 4/120 IC 285/599 x0=0.790451 velocity_parameter=-0.905333 elapsed=0.148215s written=0
+  skipped: outside allowed region
+velocity row 4/120 IC 295/599 x0=0.790522 velocity_parameter=-0.905333 elapsed=0.164028s written=0
+  skipped: outside allowed region
+velocity row 4/120 IC 303/599 x0=0.79058 velocity_parameter=-0.905333 elapsed=0.173562s written=0
+  skipped: outside allowed region
+velocity row 5/120 IC 285/599 x0=0.790451 velocity_parameter=-0.889167 elapsed=0.176725s written=0
+  skipped: outside allowed region
+velocity row 5/120 IC 295/599 x0=0.790522 velocity_parameter=-0.889167 elapsed=0.187979s written=0
+  skipped: outside allowed region
+velocity row 5/120 IC 303/599 x0=0.79058 velocity_parameter=-0.889167 elapsed=0.203589s written=0
+  skipped: outside allowed region
+velocity row 6/120 IC 285/599 x0=0.790451 velocity_parameter=-0.873 elapsed=0.206218s written=0
+  skipped: outside allowed region
+velocity row 6/120 IC 295/599 x0=0.790522 velocity_parameter=-0.873 elapsed=0.219176s written=0
+  skipped: outside allowed region
+velocity row 6/120 IC 303/599 x0=0.79058 velocity_parameter=-0.873 elapsed=0.228078s written=0
+  skipped: outside allowed region
+velocity row 7/120 IC 285/599 x0=0.790451 velocity_parameter=-0.856833 elapsed=0.23019s written=0
+  skipped: outside allowed region
+velocity row 7/120 IC 295/599 x0=0.790522 velocity_parameter=-0.856833 elapsed=0.254143s written=0
+  skipped: outside allowed region
+velocity row 7/120 IC 303/599 x0=0.79058 velocity_parameter=-0.856833 elapsed=0.271095s written=0
+  skipped: outside allowed region
+velocity row 8/120 IC 285/599 x0=0.790451 velocity_parameter=-0.840667 elapsed=0.273295s written=0
+  skipped: outside allowed region
+velocity row 8/120 IC 295/599 x0=0.790522 velocity_parameter=-0.840667 elapsed=0.295787s written=0
+  skipped: outside allowed region
+velocity row 8/120 IC 303/599 x0=0.79058 velocity_parameter=-0.840667 elapsed=0.314184s written=0
+  skipped: outside allowed region
+velocity row 9/120 IC 285/599 x0=0.790451 velocity_parameter=-0.8245 elapsed=0.316129s written=0
+  skipped: outside allowed region
+velocity row 9/120 IC 295/599 x0=0.790522 velocity_parameter=-0.8245 elapsed=0.331585s written=0
+  skipped: outside allowed region
+velocity row 9/120 IC 303/599 x0=0.79058 velocity_parameter=-0.8245 elapsed=0.350673s written=0
+  skipped: outside allowed region
+velocity row 10/120 IC 285/599 x0=0.790451 velocity_parameter=-0.808333 elapsed=0.351874s written=0
+  skipped: outside allowed region
+velocity row 10/120 IC 295/599 x0=0.790522 velocity_parameter=-0.808333 elapsed=0.371346s written=0
+  skipped: outside allowed region
+velocity row 10/120 IC 303/599 x0=0.79058 velocity_parameter=-0.808333 elapsed=0.383918s written=0
+  skipped: outside allowed region
+velocity row 11/120 IC 285/599 x0=0.790451 velocity_parameter=-0.792167 elapsed=0.389721s written=0
+  skipped: outside allowed region
+velocity row 11/120 IC 295/599 x0=0.790522 velocity_parameter=-0.792167 elapsed=0.412835s written=0
+  skipped: outside allowed region
+velocity row 11/120 IC 303/599 x0=0.79058 velocity_parameter=-0.792167 elapsed=0.425602s written=0
+  skipped: outside allowed region
+velocity row 12/120 IC 285/599 x0=0.790451 velocity_parameter=-0.776 elapsed=0.426982s written=0
+  skipped: outside allowed region
+velocity row 12/120 IC 295/599 x0=0.790522 velocity_parameter=-0.776 elapsed=0.442286s written=0
+  skipped: outside allowed region
+velocity row 12/120 IC 303/599 x0=0.79058 velocity_parameter=-0.776 elapsed=0.466253s written=0
+  skipped: outside allowed region
+velocity row 13/120 IC 285/599 x0=0.790451 velocity_parameter=-0.759833 elapsed=0.467487s written=0
+  skipped: outside allowed region
+velocity row 13/120 IC 295/599 x0=0.790522 velocity_parameter=-0.759833 elapsed=0.478105s written=0
+  skipped: outside allowed region
+velocity row 13/120 IC 303/599 x0=0.79058 velocity_parameter=-0.759833 elapsed=0.487461s written=0
+  skipped: outside allowed region
+velocity row 14/120 IC 285/599 x0=0.790451 velocity_parameter=-0.743667 elapsed=0.488439s written=0
+  skipped: outside allowed region
+velocity row 14/120 IC 295/599 x0=0.790522 velocity_parameter=-0.743667 elapsed=0.510456s written=0
+  skipped: outside allowed region
+velocity row 14/120 IC 303/599 x0=0.79058 velocity_parameter=-0.743667 elapsed=0.529171s written=0
+  skipped: outside allowed region
+velocity row 15/120 IC 285/599 x0=0.790451 velocity_parameter=-0.7275 elapsed=0.530872s written=0
+  skipped: outside allowed region
+velocity row 15/120 IC 295/599 x0=0.790522 velocity_parameter=-0.7275 elapsed=0.552568s written=0
+  skipped: outside allowed region
+velocity row 15/120 IC 303/599 x0=0.79058 velocity_parameter=-0.7275 elapsed=0.569766s written=0
+  skipped: outside allowed region
+velocity row 16/120 IC 285/599 x0=0.790451 velocity_parameter=-0.711333 elapsed=0.57091s written=0
+  skipped: outside allowed region
+velocity row 16/120 IC 295/599 x0=0.790522 velocity_parameter=-0.711333 elapsed=0.595531s written=0
+  skipped: outside allowed region
+velocity row 16/120 IC 303/599 x0=0.79058 velocity_parameter=-0.711333 elapsed=0.611573s written=0
+  skipped: outside allowed region
+velocity row 17/120 IC 285/599 x0=0.790451 velocity_parameter=-0.695167 elapsed=0.613145s written=0
+  skipped: outside allowed region
+velocity row 17/120 IC 295/599 x0=0.790522 velocity_parameter=-0.695167 elapsed=0.622682s written=0
+  skipped: outside allowed region
+velocity row 17/120 IC 303/599 x0=0.79058 velocity_parameter=-0.695167 elapsed=0.631554s written=0
+  skipped: outside allowed region
+velocity row 18/120 IC 285/599 x0=0.790451 velocity_parameter=-0.679 elapsed=0.637576s written=0
+  skipped: outside allowed region
+velocity row 18/120 IC 295/599 x0=0.790522 velocity_parameter=-0.679 elapsed=0.6654s written=0
+  skipped: outside allowed region
+velocity row 18/120 IC 303/599 x0=0.79058 velocity_parameter=-0.679 elapsed=0.674882s written=0
+  skipped: outside allowed region
+velocity row 19/120 IC 285/599 x0=0.790451 velocity_parameter=-0.662833 elapsed=0.675958s written=0
+  skipped: outside allowed region
+velocity row 19/120 IC 295/599 x0=0.790522 velocity_parameter=-0.662833 elapsed=0.69467s written=0
+  skipped: outside allowed region
+velocity row 19/120 IC 303/599 x0=0.79058 velocity_parameter=-0.662833 elapsed=0.717142s written=0
+  skipped: outside allowed region
+velocity row 20/120 IC 285/599 x0=0.790451 velocity_parameter=-0.646667 elapsed=0.718235s written=0
+  skipped: outside allowed region
+velocity row 20/120 IC 295/599 x0=0.790522 velocity_parameter=-0.646667 elapsed=0.736926s written=0
+  skipped: outside allowed region
+velocity row 20/120 IC 303/599 x0=0.79058 velocity_parameter=-0.646667 elapsed=0.751567s written=0
+  skipped: outside allowed region
+velocity row 21/120 IC 285/599 x0=0.790451 velocity_parameter=-0.6305 elapsed=0.753066s written=0
+  skipped: outside allowed region
+velocity row 21/120 IC 295/599 x0=0.790522 velocity_parameter=-0.6305 elapsed=0.774664s written=0
+  skipped: outside allowed region
+velocity row 21/120 IC 303/599 x0=0.79058 velocity_parameter=-0.6305 elapsed=0.784955s written=0
+  skipped: outside allowed region
+velocity row 22/120 IC 285/599 x0=0.790451 velocity_parameter=-0.614333 elapsed=0.786763s written=0
+  skipped: outside allowed region
+velocity row 22/120 IC 295/599 x0=0.790522 velocity_parameter=-0.614333 elapsed=0.81416s written=0
+  skipped: outside allowed region
+velocity row 22/120 IC 303/599 x0=0.79058 velocity_parameter=-0.614333 elapsed=0.824761s written=0
+  skipped: outside allowed region
+velocity row 23/120 IC 285/599 x0=0.790451 velocity_parameter=-0.598167 elapsed=0.826333s written=0
+  skipped: outside allowed region
+velocity row 23/120 IC 295/599 x0=0.790522 velocity_parameter=-0.598167 elapsed=0.845356s written=0
+  skipped: outside allowed region
+velocity row 23/120 IC 303/599 x0=0.79058 velocity_parameter=-0.598167 elapsed=0.857939s written=0
+  skipped: outside allowed region
+velocity row 24/120 IC 285/599 x0=0.790451 velocity_parameter=-0.582 elapsed=0.85931s written=0
+  skipped: outside allowed region
+velocity row 24/120 IC 295/599 x0=0.790522 velocity_parameter=-0.582 elapsed=0.872416s written=0
+  skipped: outside allowed region
+velocity row 24/120 IC 303/599 x0=0.79058 velocity_parameter=-0.582 elapsed=0.882281s written=0
+  skipped: outside allowed region
+velocity row 25/120 IC 285/599 x0=0.790451 velocity_parameter=-0.565833 elapsed=0.884094s written=0
+  skipped: outside allowed region
+velocity row 25/120 IC 295/599 x0=0.790522 velocity_parameter=-0.565833 elapsed=0.908784s written=0
+  skipped: outside allowed region
+velocity row 25/120 IC 303/599 x0=0.79058 velocity_parameter=-0.565833 elapsed=0.920985s written=0
+  skipped: outside allowed region
+velocity row 26/120 IC 285/599 x0=0.790451 velocity_parameter=-0.549667 elapsed=0.922597s written=0
+  skipped: outside allowed region
+velocity row 26/120 IC 295/599 x0=0.790522 velocity_parameter=-0.549667 elapsed=0.938571s written=0
+  skipped: outside allowed region
+velocity row 26/120 IC 303/599 x0=0.79058 velocity_parameter=-0.549667 elapsed=0.949397s written=0
+  skipped: outside allowed region
+velocity row 27/120 IC 285/599 x0=0.790451 velocity_parameter=-0.5335 elapsed=0.951053s written=0
+  skipped: outside allowed region
+velocity row 27/120 IC 295/599 x0=0.790522 velocity_parameter=-0.5335 elapsed=0.966744s written=0
+  skipped: outside allowed region
+velocity row 27/120 IC 303/599 x0=0.79058 velocity_parameter=-0.5335 elapsed=0.980287s written=0
+  skipped: outside allowed region
+velocity row 28/120 IC 285/599 x0=0.790451 velocity_parameter=-0.517333 elapsed=0.985428s written=0
+  skipped: outside allowed region
+velocity row 28/120 IC 295/599 x0=0.790522 velocity_parameter=-0.517333 elapsed=1.00068s written=0
+  skipped: outside allowed region
+velocity row 28/120 IC 303/599 x0=0.79058 velocity_parameter=-0.517333 elapsed=1.01542s written=0
+  skipped: outside allowed region
+velocity row 29/120 IC 285/599 x0=0.790451 velocity_parameter=-0.501167 elapsed=1.01678s written=0
+  skipped: outside allowed region
+velocity row 29/120 IC 295/599 x0=0.790522 velocity_parameter=-0.501167 elapsed=1.03706s written=0
+  skipped: outside allowed region
+velocity row 29/120 IC 303/599 x0=0.79058 velocity_parameter=-0.501167 elapsed=1.04816s written=0
+  skipped: outside allowed region
+velocity row 30/120 IC 285/599 x0=0.790451 velocity_parameter=-0.485 elapsed=1.04892s written=0
+  skipped: outside allowed region
+velocity row 30/120 IC 295/599 x0=0.790522 velocity_parameter=-0.485 elapsed=1.06063s written=0
+  skipped: outside allowed region
+velocity row 30/120 IC 303/599 x0=0.79058 velocity_parameter=-0.485 elapsed=1.07343s written=0
+  skipped: outside allowed region
+velocity row 31/120 IC 285/599 x0=0.790451 velocity_parameter=-0.468833 elapsed=1.0779s written=0
+  skipped: outside allowed region
+velocity row 31/120 IC 295/599 x0=0.790522 velocity_parameter=-0.468833 elapsed=1.09839s written=0
+  skipped: outside allowed region
+velocity row 31/120 IC 303/599 x0=0.79058 velocity_parameter=-0.468833 elapsed=1.10522s written=0
+  skipped: outside allowed region
+velocity row 32/120 IC 285/599 x0=0.790451 velocity_parameter=-0.452667 elapsed=1.10605s written=0
+  skipped: outside allowed region
+velocity row 32/120 IC 295/599 x0=0.790522 velocity_parameter=-0.452667 elapsed=1.12961s written=0
+  skipped: outside allowed region
+velocity row 32/120 IC 303/599 x0=0.79058 velocity_parameter=-0.452667 elapsed=1.14842s written=0
+  skipped: outside allowed region
+velocity row 33/120 IC 285/599 x0=0.790451 velocity_parameter=-0.4365 elapsed=1.15471s written=0
+  skipped: outside allowed region
+velocity row 33/120 IC 295/599 x0=0.790522 velocity_parameter=-0.4365 elapsed=1.17358s written=0
+  skipped: outside allowed region
+velocity row 33/120 IC 303/599 x0=0.79058 velocity_parameter=-0.4365 elapsed=1.18538s written=0
+  skipped: outside allowed region
+velocity row 34/120 IC 285/599 x0=0.790451 velocity_parameter=-0.420333 elapsed=1.18632s written=0
+  skipped: outside allowed region
+velocity row 34/120 IC 295/599 x0=0.790522 velocity_parameter=-0.420333 elapsed=1.19638s written=0
+  skipped: outside allowed region
+velocity row 34/120 IC 303/599 x0=0.79058 velocity_parameter=-0.420333 elapsed=1.20559s written=0
+  skipped: outside allowed region
+velocity row 35/120 IC 285/599 x0=0.790451 velocity_parameter=-0.404167 elapsed=1.20693s written=0
+  skipped: outside allowed region
+velocity row 35/120 IC 295/599 x0=0.790522 velocity_parameter=-0.404167 elapsed=1.21693s written=0
+  skipped: outside allowed region
+velocity row 35/120 IC 303/599 x0=0.79058 velocity_parameter=-0.404167 elapsed=1.22494s written=0
+  skipped: outside allowed region
+velocity row 36/120 IC 285/599 x0=0.790451 velocity_parameter=-0.388 elapsed=1.2273s written=0
+  skipped: outside allowed region
+velocity row 36/120 IC 295/599 x0=0.790522 velocity_parameter=-0.388 elapsed=1.23676s written=0
+  skipped: outside allowed region
+velocity row 36/120 IC 303/599 x0=0.79058 velocity_parameter=-0.388 elapsed=1.24481s written=0
+  skipped: outside allowed region
+velocity row 37/120 IC 285/599 x0=0.790451 velocity_parameter=-0.371833 elapsed=1.2465s written=0
+  skipped: outside allowed region
+velocity row 37/120 IC 295/599 x0=0.790522 velocity_parameter=-0.371833 elapsed=1.26047s written=0
+  skipped: outside allowed region
+velocity row 37/120 IC 303/599 x0=0.79058 velocity_parameter=-0.371833 elapsed=1.27806s written=0
+  skipped: outside allowed region
+velocity row 38/120 IC 285/599 x0=0.790451 velocity_parameter=-0.355667 elapsed=1.2794s written=0
+  skipped: outside allowed region
+velocity row 38/120 IC 295/599 x0=0.790522 velocity_parameter=-0.355667 elapsed=1.29313s written=0
+  skipped: outside allowed region
+velocity row 38/120 IC 303/599 x0=0.79058 velocity_parameter=-0.355667 elapsed=1.30783s written=0
+  skipped: outside allowed region
+velocity row 39/120 IC 285/599 x0=0.790451 velocity_parameter=-0.3395 elapsed=1.30873s written=0
+  skipped: outside allowed region
+velocity row 39/120 IC 295/599 x0=0.790522 velocity_parameter=-0.3395 elapsed=1.32565s written=0
+  skipped: outside allowed region
+velocity row 39/120 IC 303/599 x0=0.79058 velocity_parameter=-0.3395 elapsed=1.34504s written=0
+  skipped: outside allowed region
+velocity row 40/120 IC 285/599 x0=0.790451 velocity_parameter=-0.323333 elapsed=1.34723s written=0
+  skipped: outside allowed region
+velocity row 40/120 IC 295/599 x0=0.790522 velocity_parameter=-0.323333 elapsed=1.36203s written=0
+  skipped: outside allowed region
+velocity row 40/120 IC 303/599 x0=0.79058 velocity_parameter=-0.323333 elapsed=1.37377s written=0
+  skipped: outside allowed region
+velocity row 41/120 IC 285/599 x0=0.790451 velocity_parameter=-0.307167 elapsed=1.3755s written=0
+  skipped: outside allowed region
+velocity row 41/120 IC 295/599 x0=0.790522 velocity_parameter=-0.307167 elapsed=1.38927s written=0
+  skipped: outside allowed region
+velocity row 41/120 IC 303/599 x0=0.79058 velocity_parameter=-0.307167 elapsed=1.40245s written=0
+  skipped: outside allowed region
+velocity row 42/120 IC 285/599 x0=0.790451 velocity_parameter=-0.291 elapsed=1.40361s written=0
+  skipped: outside allowed region
+velocity row 42/120 IC 295/599 x0=0.790522 velocity_parameter=-0.291 elapsed=1.42918s written=0
+  skipped: outside allowed region
+velocity row 42/120 IC 303/599 x0=0.79058 velocity_parameter=-0.291 elapsed=1.44532s written=0
+  skipped: outside allowed region
+velocity row 43/120 IC 285/599 x0=0.790451 velocity_parameter=-0.274833 elapsed=1.44618s written=0
+  skipped: outside allowed region
+velocity row 43/120 IC 295/599 x0=0.790522 velocity_parameter=-0.274833 elapsed=1.46626s written=0
+  skipped: outside allowed region
+velocity row 43/120 IC 303/599 x0=0.79058 velocity_parameter=-0.274833 elapsed=1.48327s written=0
+  skipped: outside allowed region
+velocity row 44/120 IC 285/599 x0=0.790451 velocity_parameter=-0.258667 elapsed=1.48433s written=0
+  skipped: outside allowed region
+velocity row 44/120 IC 295/599 x0=0.790522 velocity_parameter=-0.258667 elapsed=1.50753s written=0
+  skipped: outside allowed region
+velocity row 44/120 IC 303/599 x0=0.79058 velocity_parameter=-0.258667 elapsed=1.52685s written=0
+  skipped: outside allowed region
+velocity row 45/120 IC 285/599 x0=0.790451 velocity_parameter=-0.2425 elapsed=1.52868s written=0
+  skipped: outside allowed region
+velocity row 45/120 IC 295/599 x0=0.790522 velocity_parameter=-0.2425 elapsed=1.54574s written=0
+  skipped: outside allowed region
+velocity row 45/120 IC 303/599 x0=0.79058 velocity_parameter=-0.2425 elapsed=1.55664s written=0
+  skipped: outside allowed region
+velocity row 46/120 IC 285/599 x0=0.790451 velocity_parameter=-0.226333 elapsed=1.55811s written=0
+  skipped: outside allowed region
+velocity row 46/120 IC 295/599 x0=0.790522 velocity_parameter=-0.226333 elapsed=1.57292s written=0
+  skipped: outside allowed region
+velocity row 46/120 IC 303/599 x0=0.79058 velocity_parameter=-0.226333 elapsed=1.58756s written=0
+  skipped: outside allowed region
+velocity row 47/120 IC 285/599 x0=0.790451 velocity_parameter=-0.210167 elapsed=1.58918s written=0
+  skipped: outside allowed region
+velocity row 47/120 IC 295/599 x0=0.790522 velocity_parameter=-0.210167 elapsed=1.60965s written=0
+  skipped: outside allowed region
+velocity row 47/120 IC 303/599 x0=0.79058 velocity_parameter=-0.210167 elapsed=1.62169s written=0
+  skipped: outside allowed region
+velocity row 48/120 IC 285/599 x0=0.790451 velocity_parameter=-0.194 elapsed=1.62491s written=0
+  skipped: outside allowed region
+velocity row 48/120 IC 295/599 x0=0.790522 velocity_parameter=-0.194 elapsed=1.64146s written=0
+  skipped: outside allowed region
+velocity row 48/120 IC 303/599 x0=0.79058 velocity_parameter=-0.194 elapsed=1.65703s written=0
+  skipped: outside allowed region
+velocity row 49/120 IC 285/599 x0=0.790451 velocity_parameter=-0.177833 elapsed=1.65962s written=0
+  skipped: outside allowed region
+velocity row 49/120 IC 295/599 x0=0.790522 velocity_parameter=-0.177833 elapsed=1.67365s written=0
+  skipped: outside allowed region
+velocity row 49/120 IC 303/599 x0=0.79058 velocity_parameter=-0.177833 elapsed=1.68558s written=0
+  skipped: outside allowed region
+velocity row 50/120 IC 285/599 x0=0.790451 velocity_parameter=-0.161667 elapsed=1.68885s written=0
+  skipped: outside allowed region
+velocity row 50/120 IC 295/599 x0=0.790522 velocity_parameter=-0.161667 elapsed=1.70163s written=0
+  skipped: outside allowed region
+velocity row 50/120 IC 303/599 x0=0.79058 velocity_parameter=-0.161667 elapsed=1.7269s written=0
+  skipped: outside allowed region
+velocity row 51/120 IC 285/599 x0=0.790451 velocity_parameter=-0.1455 elapsed=1.72875s written=0
+  skipped: outside allowed region
+velocity row 51/120 IC 295/599 x0=0.790522 velocity_parameter=-0.1455 elapsed=1.74355s written=0
+  skipped: outside allowed region
+velocity row 51/120 IC 303/599 x0=0.79058 velocity_parameter=-0.1455 elapsed=1.7591s written=0
+  skipped: outside allowed region
+velocity row 52/120 IC 285/599 x0=0.790451 velocity_parameter=-0.129333 elapsed=1.76043s written=0
+  skipped: outside allowed region
+velocity row 52/120 IC 295/599 x0=0.790522 velocity_parameter=-0.129333 elapsed=1.77569s written=0
+  skipped: outside allowed region
+velocity row 52/120 IC 303/599 x0=0.79058 velocity_parameter=-0.129333 elapsed=1.79395s written=0
+  skipped: outside allowed region
+velocity row 53/120 IC 285/599 x0=0.790451 velocity_parameter=-0.113167 elapsed=1.7948s written=0
+  skipped: outside allowed region
+velocity row 53/120 IC 295/599 x0=0.790522 velocity_parameter=-0.113167 elapsed=1.81015s written=0
+  skipped: outside allowed region
+velocity row 53/120 IC 303/599 x0=0.79058 velocity_parameter=-0.113167 elapsed=1.83011s written=0
+  skipped: outside allowed region
+velocity row 54/120 IC 285/599 x0=0.790451 velocity_parameter=-0.097 elapsed=1.83109s written=0
+  skipped: outside allowed region
+velocity row 54/120 IC 295/599 x0=0.790522 velocity_parameter=-0.097 elapsed=1.85726s written=0
+  skipped: outside allowed region
+velocity row 54/120 IC 303/599 x0=0.79058 velocity_parameter=-0.097 elapsed=1.87431s written=0
+  skipped: outside allowed region
+velocity row 55/120 IC 285/599 x0=0.790451 velocity_parameter=-0.0808333 elapsed=1.88059s written=0
+  skipped: outside allowed region
+velocity row 55/120 IC 295/599 x0=0.790522 velocity_parameter=-0.0808333 elapsed=1.90223s written=0
+  skipped: outside allowed region
+velocity row 55/120 IC 303/599 x0=0.79058 velocity_parameter=-0.0808333 elapsed=1.91273s written=0
+  skipped: outside allowed region
+velocity row 56/120 IC 285/599 x0=0.790451 velocity_parameter=-0.0646667 elapsed=1.91647s written=0
+  skipped: outside allowed region
+velocity row 56/120 IC 295/599 x0=0.790522 velocity_parameter=-0.0646667 elapsed=1.94465s written=0
+  skipped: outside allowed region
+velocity row 56/120 IC 303/599 x0=0.79058 velocity_parameter=-0.0646667 elapsed=1.9536s written=0
+  skipped: outside allowed region
+velocity row 57/120 IC 285/599 x0=0.790451 velocity_parameter=-0.0485 elapsed=1.95681s written=0
+  skipped: outside allowed region
+velocity row 57/120 IC 295/599 x0=0.790522 velocity_parameter=-0.0485 elapsed=1.96976s written=0
+  skipped: outside allowed region
+velocity row 57/120 IC 303/599 x0=0.79058 velocity_parameter=-0.0485 elapsed=1.98643s written=0
+  skipped: outside allowed region
+velocity row 58/120 IC 285/599 x0=0.790451 velocity_parameter=-0.0323333 elapsed=1.98744s written=0
+  skipped: outside allowed region
+velocity row 58/120 IC 295/599 x0=0.790522 velocity_parameter=-0.0323333 elapsed=2.00503s written=0
+  skipped: outside allowed region
+velocity row 58/120 IC 303/599 x0=0.79058 velocity_parameter=-0.0323333 elapsed=2.02673s written=0
+  skipped: outside allowed region
+velocity row 59/120 IC 285/599 x0=0.790451 velocity_parameter=-0.0161667 elapsed=2.02766s written=0
+  skipped: outside allowed region
+velocity row 59/120 IC 295/599 x0=0.790522 velocity_parameter=-0.0161667 elapsed=2.0563s written=0
+  skipped: outside allowed region
+velocity row 59/120 IC 303/599 x0=0.79058 velocity_parameter=-0.0161667 elapsed=2.06985s written=0
+  skipped: outside allowed region
+velocity row 60/120 IC 285/599 x0=0.790451 velocity_parameter=0 elapsed=2.07103s written=0
+  skipped: outside allowed region
+velocity row 60/120 IC 295/599 x0=0.790522 velocity_parameter=0 elapsed=2.08872s written=0
+  skipped: outside allowed region
+velocity row 60/120 IC 303/599 x0=0.79058 velocity_parameter=0 elapsed=2.10093s written=0
+  skipped: outside allowed region
+velocity row 61/120 IC 285/599 x0=0.790451 velocity_parameter=0.0161667 elapsed=2.10209s written=0
+  skipped: outside allowed region
+velocity row 61/120 IC 295/599 x0=0.790522 velocity_parameter=0.0161667 elapsed=2.11323s written=0
+  skipped: outside allowed region
+velocity row 61/120 IC 303/599 x0=0.79058 velocity_parameter=0.0161667 elapsed=2.11989s written=0
+  skipped: outside allowed region
+velocity row 62/120 IC 285/599 x0=0.790451 velocity_parameter=0.0323333 elapsed=2.12049s written=0
+  skipped: outside allowed region
+velocity row 62/120 IC 295/599 x0=0.790522 velocity_parameter=0.0323333 elapsed=2.14121s written=0
+  skipped: outside allowed region
+velocity row 62/120 IC 303/599 x0=0.79058 velocity_parameter=0.0323333 elapsed=2.15767s written=0
+  skipped: outside allowed region
+velocity row 63/120 IC 285/599 x0=0.790451 velocity_parameter=0.0485 elapsed=2.15843s written=0
+  skipped: outside allowed region
+velocity row 63/120 IC 295/599 x0=0.790522 velocity_parameter=0.0485 elapsed=2.17348s written=0
+  skipped: outside allowed region
+velocity row 63/120 IC 303/599 x0=0.79058 velocity_parameter=0.0485 elapsed=2.18985s written=0
+  skipped: outside allowed region
+velocity row 64/120 IC 285/599 x0=0.790451 velocity_parameter=0.0646667 elapsed=2.1913s written=0
+  skipped: outside allowed region
+velocity row 64/120 IC 295/599 x0=0.790522 velocity_parameter=0.0646667 elapsed=2.21222s written=0
+  skipped: outside allowed region
+velocity row 64/120 IC 303/599 x0=0.79058 velocity_parameter=0.0646667 elapsed=2.22039s written=0
+  skipped: outside allowed region
+velocity row 65/120 IC 285/599 x0=0.790451 velocity_parameter=0.0808333 elapsed=2.22274s written=0
+  skipped: outside allowed region
+velocity row 65/120 IC 295/599 x0=0.790522 velocity_parameter=0.0808333 elapsed=2.23725s written=0
+  skipped: outside allowed region
+velocity row 65/120 IC 303/599 x0=0.79058 velocity_parameter=0.0808333 elapsed=2.24826s written=0
+  skipped: outside allowed region
+velocity row 66/120 IC 285/599 x0=0.790451 velocity_parameter=0.097 elapsed=2.24909s written=0
+  skipped: outside allowed region
+velocity row 66/120 IC 295/599 x0=0.790522 velocity_parameter=0.097 elapsed=2.26694s written=0
+  skipped: outside allowed region
+velocity row 66/120 IC 303/599 x0=0.79058 velocity_parameter=0.097 elapsed=2.27848s written=0
+  skipped: outside allowed region
+velocity row 67/120 IC 285/599 x0=0.790451 velocity_parameter=0.113167 elapsed=2.28021s written=0
+  skipped: outside allowed region
+velocity row 67/120 IC 295/599 x0=0.790522 velocity_parameter=0.113167 elapsed=2.29777s written=0
+  skipped: outside allowed region
+velocity row 67/120 IC 303/599 x0=0.79058 velocity_parameter=0.113167 elapsed=2.31172s written=0
+  skipped: outside allowed region
+velocity row 68/120 IC 285/599 x0=0.790451 velocity_parameter=0.129333 elapsed=2.31316s written=0
+  skipped: outside allowed region
+velocity row 68/120 IC 295/599 x0=0.790522 velocity_parameter=0.129333 elapsed=2.32436s written=0
+  skipped: outside allowed region
+velocity row 68/120 IC 303/599 x0=0.79058 velocity_parameter=0.129333 elapsed=2.34318s written=0
+  skipped: outside allowed region
+velocity row 69/120 IC 285/599 x0=0.790451 velocity_parameter=0.1455 elapsed=2.34578s written=0
+  skipped: outside allowed region
+velocity row 69/120 IC 295/599 x0=0.790522 velocity_parameter=0.1455 elapsed=2.36061s written=0
+  skipped: outside allowed region
+velocity row 69/120 IC 303/599 x0=0.79058 velocity_parameter=0.1455 elapsed=2.37769s written=0
+  skipped: outside allowed region
+velocity row 70/120 IC 285/599 x0=0.790451 velocity_parameter=0.161667 elapsed=2.37891s written=0
+  skipped: outside allowed region
+velocity row 70/120 IC 295/599 x0=0.790522 velocity_parameter=0.161667 elapsed=2.39168s written=0
+  skipped: outside allowed region
+velocity row 70/120 IC 303/599 x0=0.79058 velocity_parameter=0.161667 elapsed=2.40317s written=0
+  skipped: outside allowed region
+velocity row 71/120 IC 285/599 x0=0.790451 velocity_parameter=0.177833 elapsed=2.40419s written=0
+  skipped: outside allowed region
+velocity row 71/120 IC 295/599 x0=0.790522 velocity_parameter=0.177833 elapsed=2.4196s written=0
+  skipped: outside allowed region
+velocity row 71/120 IC 303/599 x0=0.79058 velocity_parameter=0.177833 elapsed=2.44632s written=0
+  skipped: outside allowed region
+velocity row 72/120 IC 285/599 x0=0.790451 velocity_parameter=0.194 elapsed=2.44743s written=0
+  skipped: outside allowed region
+velocity row 72/120 IC 295/599 x0=0.790522 velocity_parameter=0.194 elapsed=2.46182s written=0
+  skipped: outside allowed region
+velocity row 72/120 IC 303/599 x0=0.79058 velocity_parameter=0.194 elapsed=2.48004s written=0
+  skipped: outside allowed region
+velocity row 73/120 IC 285/599 x0=0.790451 velocity_parameter=0.210167 elapsed=2.48521s written=0
+  skipped: outside allowed region
+velocity row 73/120 IC 295/599 x0=0.790522 velocity_parameter=0.210167 elapsed=2.50577s written=0
+  skipped: outside allowed region
+velocity row 73/120 IC 303/599 x0=0.79058 velocity_parameter=0.210167 elapsed=2.52711s written=0
+  skipped: outside allowed region
+velocity row 74/120 IC 285/599 x0=0.790451 velocity_parameter=0.226333 elapsed=2.52872s written=0
+  skipped: outside allowed region
+velocity row 74/120 IC 295/599 x0=0.790522 velocity_parameter=0.226333 elapsed=2.54135s written=0
+  skipped: outside allowed region
+velocity row 74/120 IC 303/599 x0=0.79058 velocity_parameter=0.226333 elapsed=2.55129s written=0
+  skipped: outside allowed region
+velocity row 75/120 IC 285/599 x0=0.790451 velocity_parameter=0.2425 elapsed=2.55354s written=0
+  skipped: outside allowed region
+velocity row 75/120 IC 295/599 x0=0.790522 velocity_parameter=0.2425 elapsed=2.56763s written=0
+  skipped: outside allowed region
+velocity row 75/120 IC 303/599 x0=0.79058 velocity_parameter=0.2425 elapsed=2.58118s written=0
+  skipped: outside allowed region
+velocity row 76/120 IC 285/599 x0=0.790451 velocity_parameter=0.258667 elapsed=2.58292s written=0
+  skipped: outside allowed region
+velocity row 76/120 IC 295/599 x0=0.790522 velocity_parameter=0.258667 elapsed=2.59899s written=0
+  skipped: outside allowed region
+velocity row 76/120 IC 303/599 x0=0.79058 velocity_parameter=0.258667 elapsed=2.61354s written=0
+  skipped: outside allowed region
+velocity row 77/120 IC 285/599 x0=0.790451 velocity_parameter=0.274833 elapsed=2.61757s written=0
+  skipped: outside allowed region
+velocity row 77/120 IC 295/599 x0=0.790522 velocity_parameter=0.274833 elapsed=2.63431s written=0
+  skipped: outside allowed region
+velocity row 77/120 IC 303/599 x0=0.79058 velocity_parameter=0.274833 elapsed=2.64901s written=0
+  skipped: outside allowed region
+velocity row 78/120 IC 285/599 x0=0.790451 velocity_parameter=0.291 elapsed=2.65084s written=0
+  skipped: outside allowed region
+velocity row 78/120 IC 295/599 x0=0.790522 velocity_parameter=0.291 elapsed=2.67109s written=0
+  skipped: outside allowed region
+velocity row 78/120 IC 303/599 x0=0.79058 velocity_parameter=0.291 elapsed=2.68383s written=0
+  skipped: outside allowed region
+velocity row 79/120 IC 285/599 x0=0.790451 velocity_parameter=0.307167 elapsed=2.68543s written=0
+  skipped: outside allowed region
+velocity row 79/120 IC 295/599 x0=0.790522 velocity_parameter=0.307167 elapsed=2.70604s written=0
+  skipped: outside allowed region
+velocity row 79/120 IC 303/599 x0=0.79058 velocity_parameter=0.307167 elapsed=2.72274s written=0
+  skipped: outside allowed region
+velocity row 80/120 IC 285/599 x0=0.790451 velocity_parameter=0.323333 elapsed=2.7254s written=0
+  skipped: outside allowed region
+velocity row 80/120 IC 295/599 x0=0.790522 velocity_parameter=0.323333 elapsed=2.75277s written=0
+  skipped: outside allowed region
+velocity row 80/120 IC 303/599 x0=0.79058 velocity_parameter=0.323333 elapsed=2.76303s written=0
+  skipped: outside allowed region
+velocity row 81/120 IC 285/599 x0=0.790451 velocity_parameter=0.3395 elapsed=2.76483s written=0
+  skipped: outside allowed region
+velocity row 81/120 IC 295/599 x0=0.790522 velocity_parameter=0.3395 elapsed=2.78849s written=0
+  skipped: outside allowed region
+velocity row 81/120 IC 303/599 x0=0.79058 velocity_parameter=0.3395 elapsed=2.80367s written=0
+  skipped: outside allowed region
+velocity row 82/120 IC 285/599 x0=0.790451 velocity_parameter=0.355667 elapsed=2.80955s written=0
+  skipped: outside allowed region
+velocity row 82/120 IC 295/599 x0=0.790522 velocity_parameter=0.355667 elapsed=2.83214s written=0
+  skipped: outside allowed region
+velocity row 82/120 IC 303/599 x0=0.79058 velocity_parameter=0.355667 elapsed=2.84642s written=0
+  skipped: outside allowed region
+velocity row 83/120 IC 285/599 x0=0.790451 velocity_parameter=0.371833 elapsed=2.84787s written=0
+  skipped: outside allowed region
+velocity row 83/120 IC 295/599 x0=0.790522 velocity_parameter=0.371833 elapsed=2.86127s written=0
+  skipped: outside allowed region
+velocity row 83/120 IC 303/599 x0=0.79058 velocity_parameter=0.371833 elapsed=2.87271s written=0
+  skipped: outside allowed region
+velocity row 84/120 IC 285/599 x0=0.790451 velocity_parameter=0.388 elapsed=2.87827s written=0
+  skipped: outside allowed region
+velocity row 84/120 IC 295/599 x0=0.790522 velocity_parameter=0.388 elapsed=2.8959s written=0
+  skipped: outside allowed region
+velocity row 84/120 IC 303/599 x0=0.79058 velocity_parameter=0.388 elapsed=2.90994s written=0
+  skipped: outside allowed region
+velocity row 85/120 IC 285/599 x0=0.790451 velocity_parameter=0.404167 elapsed=2.91089s written=0
+  skipped: outside allowed region
+velocity row 85/120 IC 295/599 x0=0.790522 velocity_parameter=0.404167 elapsed=2.92773s written=0
+  skipped: outside allowed region
+velocity row 85/120 IC 303/599 x0=0.79058 velocity_parameter=0.404167 elapsed=2.94542s written=0
+  skipped: outside allowed region
+velocity row 86/120 IC 285/599 x0=0.790451 velocity_parameter=0.420333 elapsed=2.94769s written=0
+  skipped: outside allowed region
+velocity row 86/120 IC 295/599 x0=0.790522 velocity_parameter=0.420333 elapsed=2.96445s written=0
+  skipped: outside allowed region
+velocity row 86/120 IC 303/599 x0=0.79058 velocity_parameter=0.420333 elapsed=2.9719s written=0
+  skipped: outside allowed region
+velocity row 87/120 IC 285/599 x0=0.790451 velocity_parameter=0.4365 elapsed=2.97255s written=0
+  skipped: outside allowed region
+velocity row 87/120 IC 295/599 x0=0.790522 velocity_parameter=0.4365 elapsed=2.98803s written=0
+  skipped: outside allowed region
+velocity row 87/120 IC 303/599 x0=0.79058 velocity_parameter=0.4365 elapsed=2.99961s written=0
+  skipped: outside allowed region
+velocity row 88/120 IC 285/599 x0=0.790451 velocity_parameter=0.452667 elapsed=3.00079s written=0
+  skipped: outside allowed region
+velocity row 88/120 IC 295/599 x0=0.790522 velocity_parameter=0.452667 elapsed=3.02596s written=0
+  skipped: outside allowed region
+velocity row 88/120 IC 303/599 x0=0.79058 velocity_parameter=0.452667 elapsed=3.03915s written=0
+  skipped: outside allowed region
+velocity row 89/120 IC 285/599 x0=0.790451 velocity_parameter=0.468833 elapsed=3.04026s written=0
+  skipped: outside allowed region
+velocity row 89/120 IC 295/599 x0=0.790522 velocity_parameter=0.468833 elapsed=3.06481s written=0
+  skipped: outside allowed region
+velocity row 89/120 IC 303/599 x0=0.79058 velocity_parameter=0.468833 elapsed=3.09032s written=0
+  skipped: outside allowed region
+velocity row 90/120 IC 285/599 x0=0.790451 velocity_parameter=0.485 elapsed=3.09315s written=0
+  skipped: outside allowed region
+velocity row 90/120 IC 295/599 x0=0.790522 velocity_parameter=0.485 elapsed=3.1159s written=0
+  skipped: outside allowed region
+velocity row 90/120 IC 303/599 x0=0.79058 velocity_parameter=0.485 elapsed=3.12474s written=0
+  skipped: outside allowed region
+velocity row 91/120 IC 285/599 x0=0.790451 velocity_parameter=0.501167 elapsed=3.12608s written=0
+  skipped: outside allowed region
+velocity row 91/120 IC 295/599 x0=0.790522 velocity_parameter=0.501167 elapsed=3.14619s written=0
+  skipped: outside allowed region
+velocity row 91/120 IC 303/599 x0=0.79058 velocity_parameter=0.501167 elapsed=3.15967s written=0
+  skipped: outside allowed region
+velocity row 92/120 IC 285/599 x0=0.790451 velocity_parameter=0.517333 elapsed=3.16477s written=0
+  skipped: outside allowed region
+velocity row 92/120 IC 295/599 x0=0.790522 velocity_parameter=0.517333 elapsed=3.19105s written=0
+  skipped: outside allowed region
+velocity row 92/120 IC 303/599 x0=0.79058 velocity_parameter=0.517333 elapsed=3.20395s written=0
+  skipped: outside allowed region
+velocity row 93/120 IC 285/599 x0=0.790451 velocity_parameter=0.5335 elapsed=3.20511s written=0
+  skipped: outside allowed region
+velocity row 93/120 IC 295/599 x0=0.790522 velocity_parameter=0.5335 elapsed=3.22742s written=0
+  skipped: outside allowed region
+velocity row 93/120 IC 303/599 x0=0.79058 velocity_parameter=0.5335 elapsed=3.24098s written=0
+  skipped: outside allowed region
+velocity row 94/120 IC 285/599 x0=0.790451 velocity_parameter=0.549667 elapsed=3.24305s written=0
+  skipped: outside allowed region
+velocity row 94/120 IC 295/599 x0=0.790522 velocity_parameter=0.549667 elapsed=3.26603s written=0
+  skipped: outside allowed region
+velocity row 94/120 IC 303/599 x0=0.79058 velocity_parameter=0.549667 elapsed=3.27506s written=0
+  skipped: outside allowed region
+velocity row 95/120 IC 285/599 x0=0.790451 velocity_parameter=0.565833 elapsed=3.27631s written=0
+  skipped: outside allowed region
+velocity row 95/120 IC 295/599 x0=0.790522 velocity_parameter=0.565833 elapsed=3.29266s written=0
+  skipped: outside allowed region
+velocity row 95/120 IC 303/599 x0=0.79058 velocity_parameter=0.565833 elapsed=3.31714s written=0
+  skipped: outside allowed region
+velocity row 96/120 IC 285/599 x0=0.790451 velocity_parameter=0.582 elapsed=3.31852s written=0
+  skipped: outside allowed region
+velocity row 96/120 IC 295/599 x0=0.790522 velocity_parameter=0.582 elapsed=3.33517s written=0
+  skipped: outside allowed region
+velocity row 96/120 IC 303/599 x0=0.79058 velocity_parameter=0.582 elapsed=3.34578s written=0
+  skipped: outside allowed region
+velocity row 97/120 IC 285/599 x0=0.790451 velocity_parameter=0.598167 elapsed=3.3481s written=0
+  skipped: outside allowed region
+velocity row 97/120 IC 295/599 x0=0.790522 velocity_parameter=0.598167 elapsed=3.36901s written=0
+  skipped: outside allowed region
+velocity row 97/120 IC 303/599 x0=0.79058 velocity_parameter=0.598167 elapsed=3.3821s written=0
+  skipped: outside allowed region
+velocity row 98/120 IC 285/599 x0=0.790451 velocity_parameter=0.614333 elapsed=3.38318s written=0
+  skipped: outside allowed region
+velocity row 98/120 IC 295/599 x0=0.790522 velocity_parameter=0.614333 elapsed=3.40053s written=0
+  skipped: outside allowed region
+velocity row 98/120 IC 303/599 x0=0.79058 velocity_parameter=0.614333 elapsed=3.41731s written=0
+  skipped: outside allowed region
+velocity row 99/120 IC 285/599 x0=0.790451 velocity_parameter=0.6305 elapsed=3.41847s written=0
+  skipped: outside allowed region
+velocity row 99/120 IC 295/599 x0=0.790522 velocity_parameter=0.6305 elapsed=3.43167s written=0
+  skipped: outside allowed region
+velocity row 99/120 IC 303/599 x0=0.79058 velocity_parameter=0.6305 elapsed=3.46074s written=0
+  skipped: outside allowed region
+velocity row 100/120 IC 285/599 x0=0.790451 velocity_parameter=0.646667 elapsed=3.46239s written=0
+  skipped: outside allowed region
+velocity row 100/120 IC 295/599 x0=0.790522 velocity_parameter=0.646667 elapsed=3.47833s written=0
+  skipped: outside allowed region
+velocity row 100/120 IC 303/599 x0=0.79058 velocity_parameter=0.646667 elapsed=3.49153s written=0
+  skipped: outside allowed region
+velocity row 101/120 IC 285/599 x0=0.790451 velocity_parameter=0.662833 elapsed=3.4926s written=0
+  skipped: outside allowed region
+velocity row 101/120 IC 295/599 x0=0.790522 velocity_parameter=0.662833 elapsed=3.50305s written=0
+  skipped: outside allowed region
+velocity row 101/120 IC 303/599 x0=0.79058 velocity_parameter=0.662833 elapsed=3.51895s written=0
+  skipped: outside allowed region
+velocity row 102/120 IC 285/599 x0=0.790451 velocity_parameter=0.679 elapsed=3.52025s written=0
+  skipped: outside allowed region
+velocity row 102/120 IC 295/599 x0=0.790522 velocity_parameter=0.679 elapsed=3.53523s written=0
+  skipped: outside allowed region
+velocity row 102/120 IC 303/599 x0=0.79058 velocity_parameter=0.679 elapsed=3.55088s written=0
+  skipped: outside allowed region
+velocity row 103/120 IC 285/599 x0=0.790451 velocity_parameter=0.695167 elapsed=3.55226s written=0
+  skipped: outside allowed region
+velocity row 103/120 IC 295/599 x0=0.790522 velocity_parameter=0.695167 elapsed=3.56506s written=0
+  skipped: outside allowed region
+velocity row 103/120 IC 303/599 x0=0.79058 velocity_parameter=0.695167 elapsed=3.5773s written=0
+  skipped: outside allowed region
+velocity row 104/120 IC 285/599 x0=0.790451 velocity_parameter=0.711333 elapsed=3.57848s written=0
+  skipped: outside allowed region
+velocity row 104/120 IC 295/599 x0=0.790522 velocity_parameter=0.711333 elapsed=3.59439s written=0
+  skipped: outside allowed region
+velocity row 104/120 IC 303/599 x0=0.79058 velocity_parameter=0.711333 elapsed=3.60583s written=0
+  skipped: outside allowed region
+velocity row 105/120 IC 285/599 x0=0.790451 velocity_parameter=0.7275 elapsed=3.60768s written=0
+  skipped: outside allowed region
+velocity row 105/120 IC 295/599 x0=0.790522 velocity_parameter=0.7275 elapsed=3.62255s written=0
+  skipped: outside allowed region
+velocity row 105/120 IC 303/599 x0=0.79058 velocity_parameter=0.7275 elapsed=3.63531s written=0
+  skipped: outside allowed region
+velocity row 106/120 IC 285/599 x0=0.790451 velocity_parameter=0.743667 elapsed=3.63692s written=0
+  skipped: outside allowed region
+velocity row 106/120 IC 295/599 x0=0.790522 velocity_parameter=0.743667 elapsed=3.64964s written=0
+  skipped: outside allowed region
+velocity row 106/120 IC 303/599 x0=0.79058 velocity_parameter=0.743667 elapsed=3.66149s written=0
+  skipped: outside allowed region
+velocity row 107/120 IC 285/599 x0=0.790451 velocity_parameter=0.759833 elapsed=3.66336s written=0
+  skipped: outside allowed region
+velocity row 107/120 IC 295/599 x0=0.790522 velocity_parameter=0.759833 elapsed=3.67245s written=0
+  skipped: outside allowed region
+velocity row 107/120 IC 303/599 x0=0.79058 velocity_parameter=0.759833 elapsed=3.68749s written=0
+  skipped: outside allowed region
+velocity row 108/120 IC 285/599 x0=0.790451 velocity_parameter=0.776 elapsed=3.69086s written=0
+  skipped: outside allowed region
+velocity row 108/120 IC 295/599 x0=0.790522 velocity_parameter=0.776 elapsed=3.70233s written=0
+  skipped: outside allowed region
+velocity row 108/120 IC 303/599 x0=0.79058 velocity_parameter=0.776 elapsed=3.71317s written=0
+  skipped: outside allowed region
+velocity row 109/120 IC 285/599 x0=0.790451 velocity_parameter=0.792167 elapsed=3.71509s written=0
+  skipped: outside allowed region
+velocity row 109/120 IC 295/599 x0=0.790522 velocity_parameter=0.792167 elapsed=3.74092s written=0
+  skipped: outside allowed region
+velocity row 109/120 IC 303/599 x0=0.79058 velocity_parameter=0.792167 elapsed=3.75369s written=0
+  skipped: outside allowed region
+velocity row 110/120 IC 285/599 x0=0.790451 velocity_parameter=0.808333 elapsed=3.75589s written=0
+  skipped: outside allowed region
+velocity row 110/120 IC 295/599 x0=0.790522 velocity_parameter=0.808333 elapsed=3.77728s written=0
+  skipped: outside allowed region
+velocity row 110/120 IC 303/599 x0=0.79058 velocity_parameter=0.808333 elapsed=3.78813s written=0
+  skipped: outside allowed region
+velocity row 111/120 IC 285/599 x0=0.790451 velocity_parameter=0.8245 elapsed=3.78895s written=0
+  skipped: outside allowed region
+velocity row 111/120 IC 295/599 x0=0.790522 velocity_parameter=0.8245 elapsed=3.80245s written=0
+  skipped: outside allowed region
+velocity row 111/120 IC 303/599 x0=0.79058 velocity_parameter=0.8245 elapsed=3.81726s written=0
+  skipped: outside allowed region
+velocity row 112/120 IC 285/599 x0=0.790451 velocity_parameter=0.840667 elapsed=3.8186s written=0
+  skipped: outside allowed region
+velocity row 112/120 IC 295/599 x0=0.790522 velocity_parameter=0.840667 elapsed=3.83417s written=0
+  skipped: outside allowed region
+velocity row 112/120 IC 303/599 x0=0.79058 velocity_parameter=0.840667 elapsed=3.85475s written=0
+  skipped: outside allowed region
+velocity row 113/120 IC 285/599 x0=0.790451 velocity_parameter=0.856833 elapsed=3.85625s written=0
+  skipped: outside allowed region
+velocity row 113/120 IC 295/599 x0=0.790522 velocity_parameter=0.856833 elapsed=3.86959s written=0
+  skipped: outside allowed region
+velocity row 113/120 IC 303/599 x0=0.79058 velocity_parameter=0.856833 elapsed=3.88647s written=0
+  skipped: outside allowed region
+velocity row 114/120 IC 285/599 x0=0.790451 velocity_parameter=0.873 elapsed=3.88731s written=0
+  skipped: outside allowed region
+velocity row 114/120 IC 295/599 x0=0.790522 velocity_parameter=0.873 elapsed=3.90833s written=0
+  skipped: outside allowed region
+velocity row 114/120 IC 303/599 x0=0.79058 velocity_parameter=0.873 elapsed=3.92665s written=0
+  skipped: outside allowed region
+velocity row 115/120 IC 285/599 x0=0.790451 velocity_parameter=0.889167 elapsed=3.92831s written=0
+  skipped: outside allowed region
+velocity row 115/120 IC 295/599 x0=0.790522 velocity_parameter=0.889167 elapsed=3.9453s written=0
+  skipped: outside allowed region
+velocity row 115/120 IC 303/599 x0=0.79058 velocity_parameter=0.889167 elapsed=3.96158s written=0
+  skipped: outside allowed region
+velocity row 116/120 IC 285/599 x0=0.790451 velocity_parameter=0.905333 elapsed=3.96259s written=0
+  skipped: outside allowed region
+velocity row 116/120 IC 295/599 x0=0.790522 velocity_parameter=0.905333 elapsed=3.97765s written=0
+  skipped: outside allowed region
+velocity row 116/120 IC 303/599 x0=0.79058 velocity_parameter=0.905333 elapsed=3.99724s written=0
+  skipped: outside allowed region
+velocity row 117/120 IC 285/599 x0=0.790451 velocity_parameter=0.9215 elapsed=3.99854s written=0
+  skipped: outside allowed region
+velocity row 117/120 IC 295/599 x0=0.790522 velocity_parameter=0.9215 elapsed=4.01666s written=0
+  skipped: outside allowed region
+velocity row 117/120 IC 303/599 x0=0.79058 velocity_parameter=0.9215 elapsed=4.02762s written=0
+  skipped: outside allowed region
+velocity row 118/120 IC 285/599 x0=0.790451 velocity_parameter=0.937667 elapsed=4.0287s written=0
+  skipped: outside allowed region
+velocity row 118/120 IC 295/599 x0=0.790522 velocity_parameter=0.937667 elapsed=4.05407s written=0
+  skipped: outside allowed region
+velocity row 118/120 IC 303/599 x0=0.79058 velocity_parameter=0.937667 elapsed=4.06221s written=0
+  skipped: outside allowed region
+velocity row 119/120 IC 285/599 x0=0.790451 velocity_parameter=0.953833 elapsed=4.06371s written=0
+  skipped: outside allowed region
+velocity row 119/120 IC 295/599 x0=0.790522 velocity_parameter=0.953833 elapsed=4.09812s written=0
+  skipped: outside allowed region
+velocity row 119/120 IC 303/599 x0=0.79058 velocity_parameter=0.953833 elapsed=4.11441s written=0
+  skipped: outside allowed region
+velocity row 120/120 IC 285/599 x0=0.790451 velocity_parameter=0.97 elapsed=4.11549s written=0
+  skipped: outside allowed region
+velocity row 120/120 IC 295/599 x0=0.790522 velocity_parameter=0.97 elapsed=4.14104s written=0
+  skipped: outside allowed region
+velocity row 120/120 IC 303/599 x0=0.79058 velocity_parameter=0.97 elapsed=4.15325s written=0
+  skipped: outside allowed region
+metadata -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_004_delta_1e_minus_6/closed/shard_0015/metadata.txt
+wrote 0 points (2299 ICs skipped, 0 orbits stopped early, elapsed=4.1562s) -> /mnt/c/Users/payne/Code/Hill_4BP/professional_neck_studies/e1_dense_001/survey/level_004_delta_1e_minus_6/closed/shard_0015/points.csv
+outcomes: collision=0 completed=0 forbidden=2299 inner_radius_limit=0 invalid_initial_radius=0 invalid_velocity=0 nontransverse=0 numerical_failure=0 outer_limit=0 timeout=0
