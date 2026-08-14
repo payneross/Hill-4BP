@@ -1,6 +1,5 @@
 function Omega = hill4bpEffectivePotential(q, params)
-%HILL4BPEFFECTIVEPOTENTIAL  Planar effective potential Omega(q).
-%
+% Planar effective potential Omega(q).
 % In velocity coordinates, H = 1/2*|qdot|^2 - Omega(q), so a point is
 % energetically allowed on H=h when h + Omega(q) >= 0.
 

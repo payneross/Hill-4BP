@@ -1,7 +1,6 @@
 function ds = Hill4BPRegularized(~, s, params)
-%HILL4BPREGULARIZED  McGehee-regularized planar Hill 4BP equations.
-%
-% State s = [r; theta; v; w], and prime denotes d/dtau with dt = r dtau.
+% McGehee-regularized planar Hill 4BP equations
+% State s = [r; theta; v; w], and prime denotes d/dtau with dt = r dtau
 
 r = s(1);
 theta = s(2);

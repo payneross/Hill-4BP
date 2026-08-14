@@ -1,5 +1,5 @@
 function params = hill4bpParameters()
-%HILL4BPPARAMETERS  Shared parameters for the planar oblate Hill 4BP model.
+% Shared parameters for the planar oblate Hill 4BP model
 
 values = readHill4BPParameterFile();
 

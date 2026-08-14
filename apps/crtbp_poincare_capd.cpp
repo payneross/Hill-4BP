@@ -1,11 +1,9 @@
-// CRTBP Poincare section generator built on CAPD (non-rigorous "D" types).
-//
-// Section: y = 0 with dy/dt > 0, recorded as (x, xdot) -- same columns as the
-// MATLAB grid workflow. The CRTBP vector field is handed to CAPD as a formula
-// string; CAPD's DPoincareMap integrates straight to each crossing, so there is
-// no hand-written event detection or Newton refinement.
-//
-// To get rigorous (validated) section points, swap the D* types for I* types
+// CRTBP Poincare section generator built on CAPD (non-rigorous "D" types)
+
+// The CRTBP vector field is handed to CAPD as a formula string.
+// CAPD's DPoincareMap integrates straight to each crossing.
+
+// To get validated section points, swap the D* types for I* types
 // (DMap->IMap, DOdeSolver->IOdeSolver, DPoincareMap->IPoincareMap, DVector->
 // IVector) and feed interval initial boxes.
 
@@ -27,8 +25,8 @@ using capd::DVector;
 
 namespace {
 
-// Standard CRTBP convention (G = 1, primaries at x = -mu and x = 1 - mu).
-// Omega = 0.5*(x^2 + y^2) + (1-mu)/r1 + mu/r2, Jacobi C = 2*Omega - v^2.
+// (G = 1, primaries at x = -mu and x = 1 - mu)
+// Omega = 0.5*(x^2 + y^2) + (1-mu)/r1 + mu/r2, Jacobi C = 2*Omega - v^2
 const char* kCrtbpFormula =
     "par:mu;"
     "var:x,y,z,dx,dy,dz;"
@@ -43,7 +41,7 @@ const char* kCrtbpFormula =
     "-(1-mu)*z/sqrt((x+mu)^2+y^2+z^2)^3"
     "-mu*z/sqrt((x-1+mu)^2+y^2+z^2)^3;";
 
-// Planar in-plane speed^2 available at (x, y=0, z=0) for a given Jacobi C.
+// Planar in-plane speed^2 available at (x, y=0, z=0) for a given Jacobi C
 double speed_squared(double x, double mu, double C) {
     const double r1 = std::sqrt((x + mu) * (x + mu));
     const double r2 = std::sqrt((x - 1.0 + mu) * (x - 1.0 + mu));
@@ -51,17 +49,17 @@ double speed_squared(double x, double mu, double C) {
     return 2.0 * Omega - C;
 }
 
-}  // namespace
+}  
 
 int main(int argc, char** argv) {
-    // --- parameters (override on the command line as key=value) -------------
-    double mu = 0.0121505856;   // Earth-Moon-ish; set to your system
-    double C = 3.18;            // Jacobi constant
+    
+    double mu = 0.0121505856;  // Earth-Moon-ish; set to your system
+    double C = 3.18; // Jacobi constant
     double x_begin = 0.085, x_end = 0.85;
     int x_count = 300;
     int iterates = 1000;
     std::string output = "crtbp_capd.csv";
-    std::string svg_path = "crtbp_capd.svg";   // set svg= to "" to disable
+    std::string svg_path = "crtbp_capd.svg";  // set svg= to "" to disable
 
     for (int i = 1; i < argc; ++i) {
         std::string a = argv[i];
@@ -78,12 +76,12 @@ int main(int argc, char** argv) {
         else if (k == "svg") svg_path = v;
     }
 
-    // --- build the CAPD Poincare map ----------------------------------------
-    // Two *different* orders, do not conflate them:
-    //   - map degree: order of spatial (phase-variable) derivatives the map can
-    //     produce. For a plain Poincare map we need none, so degree 1. Large
+    // build the CAPD Poincare map 
+    // Two *different* orders:
+    //   1.  map degree: order of spatial (phase-variable) derivatives the map can
+    //     produce. For a Poincare map we need none, so degree 1. Large
     //     values allocate a huge jet (C(n+d,d) coeffs) and blow up memory.
-    //   - solver order: the time-Taylor truncation order of the integrator.
+    //   2.  solver order: the time-Taylor truncation order of the integrator.
     const int map_degree = 1;
     const int solver_order = 20;
     DMap vf(kCrtbpFormula, map_degree);
@@ -93,7 +91,7 @@ int main(int argc, char** argv) {
     solver.setAbsoluteTolerance(1e-14);
     solver.setRelativeTolerance(1e-12);
 
-    // Section y = 0  (coordinate index 1 of the 6D state), record dy/dt > 0.
+    // Section y = 0, record dy/dt > 0.
     DCoordinateSection section(6, 1);
     DPoincareMap pm(solver, section, capd::poincare::MinusPlus);
 
@@ -102,13 +100,13 @@ int main(int argc, char** argv) {
 
     const double xStep = (x_count > 1) ? (x_end - x_begin) / (x_count - 1) : 0.0;
     long written = 0, skipped = 0;
-    std::vector<std::pair<double, double>> pts;   // kept for the SVG render
+    std::vector<std::pair<double, double>> pts; 
 
     for (int n = 0; n < x_count; ++n) {
         const double x0 = x_begin + n * xStep;
 
         // Place the IC on the section with dy > 0. Here we put all in-plane
-        // speed into ydot (xdot = 0); change this to match your sampling.
+        // speed into ydot (xdot = 0)
         const double v2 = speed_squared(x0, mu, C);
         if (v2 <= 0.0) { ++skipped; continue; }
         const double ydot0 = std::sqrt(v2);
@@ -119,8 +117,8 @@ int main(int argc, char** argv) {
 
         try {
             for (int it = 0; it < iterates; ++it) {
-                u = pm(u);                 // integrate to the next crossing
-                out << u[0] << ',' << u[3] << '\n';   // (x, xdot)
+                u = pm(u);  // integrate to the next crossing
+                out << u[0] << ',' << u[3] << '\n';  // (x, xdot)
                 pts.emplace_back(u[0], u[3]);
                 ++written;
             }
@@ -130,7 +128,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    // --- dependency-free SVG scatter so the section can be eyeballed --------
+    // dependency-free SVG scatter so the section can be eyeballed 
     if (!svg_path.empty() && !pts.empty()) {
         double xmin = std::numeric_limits<double>::max(), xmax = -xmin;
         double ymin = xmin, ymax = -xmin;
@@ -148,7 +146,7 @@ int main(int argc, char** argv) {
             << "<rect width='" << W << "' height='" << H << "' fill='white'/>\n";
         for (const auto& p : pts) {
             const double px = pad + (p.first - xmin) * sx;
-            const double py = H - pad - (p.second - ymin) * sy;  // flip y
+            const double py = H - pad - (p.second - ymin) * sy; // flip y
             svg << "<circle cx='" << px << "' cy='" << py
                 << "' r='0.6' fill='blue'/>\n";
         }

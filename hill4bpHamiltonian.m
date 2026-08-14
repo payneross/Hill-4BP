@@ -1,6 +1,5 @@
 function H = hill4bpHamiltonian(state, params)
-%HILL4BPHAMILTONIAN  Hamiltonian for planar Hill 4BP velocity states.
-%
+% Hamiltonian for planar Hill 4BP velocity states.
 % state = [x1; x2; x1dot; x2dot].
 
 q = state(1:2);

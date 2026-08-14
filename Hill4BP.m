@@ -1,9 +1,5 @@
 function stateDot = Hill4BP(~, state, params)
-%HILL4BP  Singular planar Hill 4BP equations in Cartesian velocity form.
-%
-% This is useful for reference and diagnostics.  The Poincare script uses
-% Hill4BPRegularized instead because the Cartesian equations are singular
-% at collisions with the tertiary.
+% planar Hill 4BP equations in Cartesian form.
 
 x = state(1);
 y = state(2);

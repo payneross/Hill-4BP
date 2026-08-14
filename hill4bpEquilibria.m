@@ -1,5 +1,5 @@
 function equilibria = hill4bpEquilibria(params)
-%HILL4BPEQUILIBRIA  Planar Hill 4BP equilibria and their energies.
+% Planar Hill 4BP equilibria and their energies
 
 gamma = params.gamma;
 nu = params.nu;

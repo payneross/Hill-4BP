@@ -1,5 +1,5 @@
 function state = hill4bpMcGeheeToCartesian(s, params)
-%HILL4BPMCGEHEETOCARTESIAN  Convert [r;theta;v;w] to [x1;x2;x1dot;x2dot].
+% Convert [r;theta;v;w] to [x1;x2;x1dot;x2dot]
 
 r = max(s(1), 0);
 theta = s(2);

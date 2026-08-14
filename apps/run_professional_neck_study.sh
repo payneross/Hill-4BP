@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
 # Run a reproducible, two-sided E1-neck study with separate floating-point
-# survey and rigorous interval-proof products.
-#
+# srvey and rigorous interval-proof products.
+
 # Typical WSL use:
 #   MODE=both \
 #   SURVEY_BINARY=build/hill4bp_poincare_capd \
@@ -166,9 +165,9 @@ proof_fraction_count="${PROOF_FRACTION_COUNT:-21}"
 proof_iterates="${PROOF_ITERATES:-1}"
 proof_fraction_lower="${PROOF_FRACTION_LOWER:--0.9}"
 proof_fraction_upper="${PROOF_FRACTION_UPPER:-0.9}"
-# Point families are the safe all-purpose default on both sides.  A closed
+# Point families are the safe all-purpose default on both sides. A closed
 # scaled window contains zero-velocity boundaries, so a continuum cover across
-# the entire window necessarily has non-transverse boundary cells.  Users opt
+# the entire window necessarily has non-transverse boundary cells. Users opt
 # into cover mode on explicitly split, strictly classified rectangles.
 proof_grid_mode="${PROOF_GRID_MODE:-points}"
 proof_x_radius="${PROOF_X_RADIUS:-0}"

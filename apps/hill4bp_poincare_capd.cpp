@@ -1,29 +1,22 @@
 // McGehee-regularized planar Hill 4-body problem (oblate bodies) Poincare
-// section, built on CAPD. This is the model used by the MATLAB workflow and
-// by Belbruno, Gidea & Lam, "Regularization of the Hill four-body problem
-// with oblate bodies" (2023), eq. (4.9).
-//
-// The paper's radial coordinate r has a fractional r^0.8 term for alpha=3.
+// section, built on CAPD. 
+
+// radial coordinate r has a fractional r^0.8 term for alpha=3.
 // That term is only C^0 at collision and is a poor fit for a Taylor solver.
 // We therefore integrate R = r^(1/5) = sqrt(rho), where rho is Cartesian
-// radius.  The mathematically equivalent, collision-smooth state is
+// radius. The equivalent, collision-smooth state is
 // s = (R, theta, v, w), with dt = R^5 dtau:
-//   R'     = 0.5 v R
+//   R'= 0.5 v R
 //   theta' = w - R^5
-//   v'     = 1.5 v^2 + w^2 - 3c - R^4
-//                 - 2A R^10 cos^2(theta) - 2B R^10 sin^2(theta)
-//   w'     = 0.5 v w + 2(A-B) R^10 sin(theta) cos(theta).
-//
-// Section: Cartesian x2 = 0 with x2dot > 0. Since x2 = R^2 sin(theta),
-// sin(theta)=0 is the section away from collision. CAPD is deliberately asked
-// for crossings in BOTH directions and this driver filters on physical
-// x2dot. This is important: CAPD 6.1's direction-specific "leave section"
-// loop does not apply maxReturnTime and can otherwise run forever on a
-// collision-asymptotic orbit.
-//
-// This executable is the dense floating-point reconnaissance driver.  The
-// separate hill4bp_validate_capd executable uses CAPD I* types, C0 sets, and
-// explicit interval event isolation for proof-producing runs.
+//   v' = 1.5 v^2 + w^2 - 3c - R^4 - 2A R^10 cos^2(theta) - 2B R^10 sin^2(theta)
+//   w' = 0.5 v w + 2(A-B) R^10 sin(theta) cos(theta).
+
+// Since x2 = R^2 sin(theta), sin(theta)=0 is the section away from collision.
+// CAPD is deliberately asked for crossings in BOTH directions and this driver 
+// filters on physical x2dot. 
+// CAPD 6.1's direction-specific "leave section" loop does not apply maxReturnTime
+// and can otherwise run forever on a collision-asymptotic orbit.
+
 
 #include "capd/capdlib.h"
 
@@ -51,11 +44,11 @@ using capd::DVector;
 
 namespace {
 
-// The configured study fixes alpha=3, hence gamma=2/(alpha+2)=2/5.
+// study fixes alpha=3, hence gamma=2/(alpha+2)=2/5
 const double kPaperGamma = 2.0 / 5.0;
 
 // CAPD's parser rejects inline scientific-notation constants, so every numeric
-// coefficient is passed as a named parameter instead.
+// coefficient is passed as a parameter instead
 const char* kHill4bpField =
     "par:A,B,ac;"
     "var:R,th,v,w;"
@@ -356,7 +349,7 @@ PoincareDefaults load_poincare_defaults(const std::map<std::string, double>& val
     return defaults;
 }
 
-// Eigenvalues of the quadratic part (paper eq. 2.4 / MATLAB hill4bpParameters).
+// Eigenvalues of the quadratic part
 void finalize(Params& p, const std::map<std::string, double>& values) {
     const double mu = p.mu, u1 = p.u1, u2 = p.u2;
     const double Delta = std::pow(mu * u1 * u1 * u1 + (1 - mu) * u2 * u2 * u2, 2)
@@ -370,7 +363,7 @@ void finalize(Params& p, const std::map<std::string, double>& values) {
     p.lambda2 = optional_value(values, "lambda2", 0.5 * (base + spread));
     p.A = (1 - p.lambda2) / 2;
     p.B = (1 - p.lambda1) / 2;
-    p.c = -p.c3;   // c = -c3 > 0
+    p.c = -p.c3;  // c = -c3 > 0
 }
 
 double equilibrium_radius(double lambda, const Params& p) {
@@ -403,16 +396,16 @@ double equilibrium_radius(double lambda, const Params& p) {
     return 0.5 * (lo + hi);
 }
 
-// Planar effective potential (MATLAB hill4bpEffectivePotential).
+// Planar effective potential 
 double effective_potential(double x, double y, const Params& p) {
     const double rho = std::sqrt(x * x + y * y);
     return 0.5 * (p.lambda2 * x * x + p.lambda1 * y * y)
         + 1.0 / rho + p.c / (rho * rho * rho);
 }
 
-// Omega(x,y)-Omega(xe,0), evaluated without subtracting two O(1) values.
+// Omega(x,y)-Omega(xe,0), evaluated without subtracting two O(1) values
 // The x-axis expression uses the E1 equilibrium relation and is exact for
-// either symmetric branch because the potential is even in x.
+// either symmetric branch because the potential is even in x
 double e1_potential_difference(double x, double y, double xe, const Params& p) {
     const double ax = std::abs(x);
     if (!(ax > 0.0) || !(xe > 0.0)) {
@@ -487,7 +480,7 @@ DVector to_smooth_mcgehee(double q1, double q2, double xdot, double ydot) {
     }
     const double theta = std::atan2(q2, q1);
     const double R = std::sqrt(rho);
-    const double p1 = xdot - q2;   // canonical momenta
+    const double p1 = xdot - q2;  // canonical momenta
     const double p2 = ydot + q1;
     const double scale = R * R * R;
     DVector s(4);
@@ -590,7 +583,7 @@ std::string classify_event_surface(const DVector& state,
     return "section";
 }
 
-}  // namespace
+} 
 
 int run(int argc, char** argv) {
     for (int i = 1; i < argc; ++i) {
@@ -899,7 +892,7 @@ int run(int argc, char** argv) {
     // Zero-velocity boundary in the plotted section coordinates.
     // On y=0, H=h gives ydot^2 = 2*(h+Omega(x,0)) - xdot^2, so the
     // allowed region in the (x,xdot) section is bounded by
-    // xdot = +/-sqrt(2*(h+Omega(x,0))).
+    // xdot = +/-sqrt(2*(h+Omega(x,0)))
     if (!zvb_output.empty()) {
         std::ofstream zvb(zvb_output);
         if (!zvb) {
@@ -932,7 +925,7 @@ int run(int argc, char** argv) {
         std::cerr << "zero-velocity boundary -> " << zvb_output << '\n';
     }
 
-    // --- CAPD Poincare map --------------------------------------------------
+    //CAPD Poincare map 
     DMap field(kHill4bpField, /*map_degree=*/1);
     field.setParameter("A", p.A);
     field.setParameter("B", p.B);
@@ -1187,7 +1180,7 @@ int run(int argc, char** argv) {
                         // in_out return_tau is measured from the beginning of
                         // this requested positive-return search and therefore
                         // already accumulates any intervening negative section
-                        // crossing.  Offset it only by completed iterations.
+                        // crossing. Offset it only by completed iterations.
                         cumulative_tau = current_iterate_origin_tau + return_tau;
                         terminal_tau = cumulative_tau;
                         for (int j = 0; j < 4; ++j) terminal[j] = u[j];
@@ -1310,7 +1303,7 @@ int run(int argc, char** argv) {
         }
     }
 
-    // --- dependency-free SVG scatter ---------------------------------------
+
     if (!svg_path.empty() && !pts.empty()) {
         double xmin = std::numeric_limits<double>::max(), xmax = -xmin;
         double ymin = xmin, ymax = -xmin;

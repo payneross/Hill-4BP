@@ -1,5 +1,5 @@
 function [speed, allowed] = hill4bpSpeed(q, h, params)
-%HILL4BPSPEED  Velocity magnitude on the Hamiltonian level H=h.
+% Velocity magnitude on the Hamiltonian level H=h
 
 speedSquared = 2*(h + hill4bpEffectivePotential(q, params));
 allowed = speedSquared >= 0 && isfinite(speedSquared);

@@ -1,5 +1,5 @@
 function [value, isterminal, direction] = hill4bpSectionEvent(~, s, params)
-%HILL4BPSECTIONEVENT  Detect x2=0 crossings with positive x2dot.
+% Detects x2=0 crossings with positive x2dot
 
 r = max(s(1), 0);
 theta = s(2);

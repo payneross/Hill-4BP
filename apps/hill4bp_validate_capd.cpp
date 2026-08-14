@@ -1,24 +1,20 @@
-// Rigorous interval validation for near-E1 Poincare returns in the
+// interval validation for near-E1 Poincare returns in the
 // McGehee-regularized planar Hill four-body problem.
-//
-// This executable deliberately complements, rather than replaces, the dense
-// floating-point survey in hill4bp_poincare_capd.cpp.  Every decimal model
-// input and every mathematical command-line value is enclosed with
-// directed-rounding CAPD intervals (step/tolerance controls are binary64
-// algorithm settings).  Initial parameter cells are mapped to boxes containing
-// the corresponding fixed-energy graph, and CAPD's rigorous C0 set integrator
+
+// Every decimal model input and every command-line value is enclosed with
+// directed-rounding CAPD intervals.  Initial parameter cells are mapped to boxes containing
+// the corresponding fixed-energy graph, and CAPD's C0 set integrator
 // encloses every trajectory in each box.
-//
-// CAPD 6.1's rigorous PoincareMap path does not honour setMaxReturnTime, and
-// ITimeMap overwrites a configured maximum step with its final-time gap.  This
-// validator therefore initializes adaptive step control explicitly and moves
+
+// CAPD 6.1's PoincareMap path does not honor setMaxReturnTime, and
+// ITimeMap overwrites a configured maximum step with its final-time gap. This
+// script therefore initializes adaptive step control and moves
 // a C0 set by one IOdeSolver step at a time, reasserting and auditing the step
-// cap on every move.  On every rigorous dense solution curve it
-// examines sin(theta), R-Rc, and Ro-R separately.  Interval Newton plus a
+// cap on every move. On every dense solution curve it
+// examines sin(theta), R-Rc, and Ro-R separately. Interval Newton plus a
 // derivative sign proves a unique root, and disjoint root-time intervals prove
-// which event is first.  This catches even numbers of crossings inside one
-// solver step.  Ambiguity, wrapping, or a solver exception is an unresolved
-// proof obligation, never a dynamical classification.
+// which event is first. This catches even numbers of crossings inside one
+// solver step. 
 
 #include "capd/capdlib.h"
 #include "capd_decimal_literal.hpp"
@@ -246,7 +242,7 @@ void validate_decimal(const std::string& text, const std::string& key) {
 
 interval decimal_interval(const std::string& text, const std::string& key) {
     // CAPD NATIVE deliberately applies predecessor/successor to string
-    // endpoints, even when the mathematical literal is exactly zero.  That
+    // endpoints, even when the mathematical literal is exactly zero. That
     // turns "0" into [-min_subnormal,+min_subnormal], which is a valid outer
     // enclosure but not a valid nonnegative radius.  Zero is exactly
     // representable, so preserve it as the rigorous singleton [0,0].
@@ -335,7 +331,7 @@ interval hull(const interval& a, const interval& b) {
 
 interval point_from_bound(double value) {
     // A binary64 value is exactly representable as a degenerate native CAPD
-    // interval.  This is used only after the enclosing arithmetic produced it.
+    // interval. This is used only after the enclosing arithmetic produced it.
     return interval(value);
 }
 
@@ -429,7 +425,7 @@ interval pow6(const interval& x) { return pow3(x) * pow3(x); }
 interval pow10(const interval& x) { const interval x5 = pow5(x); return x5 * x5; }
 
 // R^6 times the physical Hamiltonian residual H-h in the regularized
-// coordinates.  Evaluating this polynomial form avoids divisions near the
+// coordinates. Evaluating this polynomial form avoids divisions near the
 // inner study limit and is therefore the useful quantity to audit in the
 // interval event table.
 interval scaled_energy_residual(const IVector& state,
@@ -532,12 +528,12 @@ FirstNeckCertificate certify_first_neck(const ModelIntervals& p) {
     result.positive_lambda_c = strictly_positive(p.lambda1)
         && strictly_positive(p.lambda2) && strictly_positive(p.c);
     // For lambda,c>0, g_lambda(rho)=lambda*rho-rho^-2-3c*rho^-4
-    // increases strictly from -infinity to +infinity on rho>0.  The bracketed
+    // increases strictly from -infinity to +infinity on rho>0. The bracketed
     // root is therefore the unique positive root on its complete axis.
     result.global_axis_root_uniqueness = result.positive_lambda_c
         && result.e1.endpoint_signs && result.e3.endpoint_signs;
     // A mixed-axis critical point would require the same radial factor to
-    // equal both lambda1 and lambda2.  Strict separation rules it out.
+    // equal both lambda1 and lambda2. Strict separation rules it out.
     result.no_mixed_axis_equilibria =
         p.lambda1.rightBound() < p.lambda2.leftBound()
         || p.lambda2.rightBound() < p.lambda1.leftBound();
@@ -663,9 +659,8 @@ IVector initial_box(const ParameterCell& cell,
     state[2] = interval(static_cast<double>(settings.branch_sign)) * R3 * xdot;
     state[3] = interval(static_cast<double>(settings.branch_sign))
         * R3 * (ydot + cell.x);
-    // This residual is evaluated in the stable, cancellation-free energy
-    // graph coordinates.  It must enclose zero; width is dependency wrapping,
-    // not a floating-point energy drift.
+    // This residual is ealuated in the stable, cancellation-free energy
+    // graph coordinates. It must enclose zero
     const interval signed_delta = settings.side == "open"
         ? settings.delta : -settings.delta;
     const interval potential_difference = e1_potential_difference(
@@ -785,7 +780,7 @@ void scan_surface_interval(const IOdeSolver::SolutionCurve& curve,
 
     const interval derivative = surface_derivative(surface, state);
 
-    // Every restarted section chart has theta=0 exactly.  If sin(theta) is
+    // Every restarted section chart has theta=0 exactly. If sin(theta) is
     // strictly monotone on a prefix beginning at t=0 and has the expected
     // strict endpoint sign, the only zero in that prefix is the deliberately
     // ignored initial one.
@@ -830,7 +825,7 @@ void scan_surface_interval(const IOdeSolver::SolutionCurve& curve,
             newton.subsetInterior(domain);
         // A uniform strict endpoint sign change or a strict parameterized
         // interval-Newton inclusion proves that every trajectory in the set
-        // has one root here.  The derivative interval excluding zero gives
+        // has one root here. The derivative interval excluding zero gives
         // uniqueness across the complete time cell.
         if (endpoint_existence || parameterized_newton_existence) {
             interval root_time = contracted;
@@ -1130,8 +1125,8 @@ AttemptResult validate_once(const ParameterCell& cell,
                     time_before_step + scan.event.relative_time;
                 // A non-degenerate restart-time enclosure can make the final
                 // dense curve extend slightly beyond the requested decimal
-                // cap.  Only classify an event if its complete time enclosure
-                // is before the cap; otherwise prove the cap is first or leave
+                // cap. Only classify an event if its complete time enclosure
+                // is before the cap. otherwise prove the cap is first or leave
                 // the ordering as an explicit proof obligation.
                 if (event_time.leftBound() >= settings.tau_cap.rightBound()) {
                     result.resolved = true;

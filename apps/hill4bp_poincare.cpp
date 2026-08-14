@@ -461,7 +461,7 @@ std::vector<Point> generate_poincare(const Config& config,
     return points;
 }
 
-}  // namespace
+}  
 
 int main(int argc, char** argv) {
     try {

@@ -1,5 +1,5 @@
 function s = hill4bpCartesianToMcGehee(state, params)
-%HILL4BPCARTESIANTOMCGEHEE  Convert [x1;x2;x1dot;x2dot] to [r;theta;v;w].
+%  Converts [x1;x2;x1dot;x2dot] to [r;theta;v;w].
 
 q1 = state(1);
 q2 = state(2);

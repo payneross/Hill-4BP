@@ -1,13 +1,11 @@
-#!/usr/bin/env bash
-# Generate a two-sided, near-neck Poincare sweep with the CAPD driver.
-#
+# Generate a two-sided, near-neck Poincare sweep with the CAPD driver
+
 # Run from any directory:
 #   bash apps/run_neck_sweep_capd.sh /path/to/hill4bp_poincare_capd
 # or:
 #   CAPD_BINARY=/path/to/hill4bp_poincare_capd bash apps/run_neck_sweep_capd.sh
-#
-# Override the reconnaissance resolution, for example:
-#   X_COUNT=160 XDOT_COUNT=31 ITERATES=100 bash apps/run_neck_sweep_capd.sh
+
+
 
 set -euo pipefail
 
@@ -30,7 +28,7 @@ if [[ ! -x "${binary}" ]]; then
     exit 1
 fi
 
-# These defaults make a bounded reconnaissance sweep around the positive E1
+# These defaults make a bounded sweep around the positive E1
 # neck. The executable computes an x window proportional to sqrt(delta), so
 # every energy receives comparable local resolution.
 neck="${NECK:-E1}"
